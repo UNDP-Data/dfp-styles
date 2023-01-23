@@ -1,5 +1,15 @@
 # Style Sheet to be used in different visualization projects
 
+Use this in the `<head>`
+
+```
+<link rel="stylesheet" href="https://undp-data.github.io/stylesheets-for-viz/style/mainStyleSheet.css">
+```
+
+If using as an embed script add `<link rel="stylesheet" href="https://undp-data.github.io/stylesheets-for-viz/style/mainStyleSheet.css">` on the top.
+
+___
+
 ## Classes to use for styling AntD components and different UI components
 
 ### Parent Container
