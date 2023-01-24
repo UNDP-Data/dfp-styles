@@ -1285,6 +1285,7 @@ a.undp-style:focus-visible {
   text-transform: uppercase;
   color: black;
   padding: 10px 3rem 0 0;
+  padding-inline-end: 3rem;
 }
 
 
