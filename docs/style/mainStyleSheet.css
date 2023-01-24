@@ -61,7 +61,8 @@
   font-size: 1rem;
   line-height: 1.4;
   width: 100%;
-  padding: 0 var(--spacing-05);
+  padding: 0;
+  max-width: 100rem;
   margin: auto;
 }
 
