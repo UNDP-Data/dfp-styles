@@ -1301,6 +1301,9 @@ a.undp-style:focus-visible {
   font-family: var(--fontFamily) !important;
 }
 
+.undp-select-option .ant-select-item-option-content{
+  white-space: normal !important;
+}
 
 .undp-select-option.ant-select-item-option-selected{  
   background-color: transparent;
@@ -1339,7 +1342,7 @@ a.undp-style:focus-visible {
   font-weight: 600;
   text-transform: uppercase;
   color: black;
-  padding: 0 11px;
+  padding: 0 11px !important;
 }
 
 .undp-select-option.ant-select-item-option-selected .ant-select-item-option-state .anticon-check svg {
