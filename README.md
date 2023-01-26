@@ -19,11 +19,17 @@ __Additonal Variations Classes for max-width 1280px__: `max-width`
 
 ### Typography
 __h1__: Required class `undp-typography`
+
 __h2__: Required class `undp-typography`
+
 __h3__: Required class `undp-typography`
+
 __h4__: Required class `undp-typography`
+
 __h5__: Required class `undp-typography`
+
 __h6__: Required class `undp-typography`
+
 __p__: Required class `undp-typography`
 
 ### Text Link
