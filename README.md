@@ -15,7 +15,7 @@ ___
 ### Parent Container
 _All the div should be within a parent container for consistent styling with UNDP design style_
 __Require class__: `undp-container`
-__Additonal Variations Classes for max-width 1280px__: `max-width`
+__Additonal Variations Classes for max-width 1600px__: `max-width`
 
 ### Typography
 __h1__: Required class `undp-typography`
