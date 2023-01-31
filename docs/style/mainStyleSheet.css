@@ -572,16 +572,8 @@ a.undp-style:focus-visible {
   color: var(--black);
 }
 
-.align-center {
-  text-align: center;
-}
-
 .align-right {
   text-align: right;
-}
-
-.align-center {
-  text-align: center;
 }
 
 .no-shrink {
