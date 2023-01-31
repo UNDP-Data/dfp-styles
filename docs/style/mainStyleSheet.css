@@ -1322,7 +1322,7 @@ a.undp-style:focus-visible {
   box-shadow: none !important;
 }
 
-.undp-select.ant-select-multiple .ant-select-selection-item {
+.undp-select.ant-select-multiple .ant-select-selection-item span {
   font-size: 1rem !important;
   font-weight: 600;
   text-transform: uppercase;
