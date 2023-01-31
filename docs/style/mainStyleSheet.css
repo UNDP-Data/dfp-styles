@@ -647,6 +647,7 @@ a.undp-style:focus-visible {
   cursor: pointer;
   justify-content: center;
   padding: 1rem 1.5rem;
+  margin: 0 !important;
 }
 
 .undp-button:focus-visible {
