@@ -1322,15 +1322,11 @@ a.undp-style:focus-visible {
 .undp-select .ant-select-selection-search-input {
   padding: 0 !important;
   font-size: 1.25rem !important;
-}
-
-.undp-select .ant-select-selection-search-input {
-  padding: 0 !important;
-  font-size: 1.25rem !important;
+  box-shadow: none !important;
 }
 
 .undp-select.ant-select-multiple .ant-select-selection-item {
-  font-size: 1rem;
+  font-size: 1rem !important;
   font-weight: 600;
   text-transform: uppercase;
   color: black;
