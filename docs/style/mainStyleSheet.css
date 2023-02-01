@@ -810,12 +810,12 @@ a.undp-style:focus-visible {
 
 .undp-checkbox .ant-checkbox + span {
   padding: 0 7px;
-  font-size: 1rem;
+  font-size: 1rem !important;
   color: var(--black);
 }
 
 .undp-checkbox .ant-checkbox-disabled + span {
-  color: var(--gray-400);
+  color: var(--gray-400) !important;
 }
 
 .undp-checkbox .ant-checkbox-disabled .ant-checkbox-inner {
@@ -927,7 +927,7 @@ a.undp-style:focus-visible {
   border-bottom: 1px solid var(--gray-500);
   color: var(--gray-600);
   display: inline-block;
-  font-size: .75rem;
+  font-size: 0.75rem !important;
   margin: 0;
   margin-bottom: var(--spacing-02);
   text-transform: uppercase;
@@ -1142,7 +1142,7 @@ a.undp-style:focus-visible {
 
 .undp-radio .ant-radio + span {
   padding: 0 7px;
-  font-size: 1rem;
+  font-size: 1rem !important;
   color: var(--black);
 }
 
