@@ -1606,6 +1606,7 @@ a.undp-style:focus-visible {
   color: var(--black);
   transition: 300ms all;
   flex-grow: 1;
+  height: auto !important;
 }
 
 .stat-card:hover {
