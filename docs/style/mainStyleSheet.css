@@ -1805,3 +1805,7 @@ a.undp-style:focus-visible {
 .ant-tabs-dropdown {
   font-family: var(--fontFamily);
 }
+
+.ant-space-item {
+  font-size: 1rem !important;
+}
