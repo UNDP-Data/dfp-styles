@@ -41,7 +41,7 @@
   --spacing-11: 5rem;
   --spacing-12: 6rem;
   --spacing-13: 7rem;
-  --fontFamily: 'proxima-nova', 'Helvetica Neue', 'sans-serif'
+  --fontFamily: 'ProximaNova', 'proxima-nova', 'Helvetica Neue', 'sans-serif'
 }
 
 @keyframes lineLoop-animation-for-links {
