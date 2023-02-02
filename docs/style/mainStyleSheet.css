@@ -71,7 +71,15 @@
 }
 
 hr.undp-style {
-  border: 1px solid var(--black);
+  height: 1px;
+  background-color: var(--black);
+  border: none;
+}
+
+hr.undp-style.light {
+  height: 1px;
+  background-color: var(--gray-400);
+  border: none;
 }
 
 p.undp-typography {
@@ -299,13 +307,13 @@ a.undp-style:focus-visible {
 .label {
   margin-bottom: var(--spacing-03);
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.4;
 }
 
 @media (min-width: 48em) {
   .label {
-      font-size: 1.25rem;
+      font-size: 1rem;
   }
 }
 
@@ -1945,4 +1953,12 @@ a.undp-style:focus-visible {
 
 .undp-chip-clickable {
   cursor: pointer;
+}
+
+.undp-loader-container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
 }
