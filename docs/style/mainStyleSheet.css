@@ -1732,7 +1732,7 @@ a.undp-style:focus-visible {
   border-bottom: 2px solid var(--gray-200);
 }
 
-.undp-tabs .ant-tabs-tab .ant-tabs-tab-btn>div>div {
+.undp-tabs .ant-tabs-tab .ant-tabs-tab-btn>div {
   font-size: 1rem !important;
 }
 
