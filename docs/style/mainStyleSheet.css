@@ -1046,6 +1046,10 @@ a.undp-style:focus-visible {
   background: url(https://design.undp.org/static/media/icon-check.b332b98d.svg) no-repeat center center;
 }
 
+undp-no-overflow{
+  overflow: hidden;
+}
+
 .undp-checkbox:hover .ant-checkbox .ant-checkbox-inner {
   background-color: rgba(238, 64, 45,0.2);
   border: 2px solid var(--red);
