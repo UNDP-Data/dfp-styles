@@ -95,7 +95,7 @@ p.undp-typography {
 }
 
 caption.undp-typography, h1.undp-typography, h2.undp-typography, h3.undp-typography, h4.undp-typography, h5.undp-typography, h6.undp-typography {
-  margin: 0 0 .75rem;
+  margin: 0 0 0.75rem;
   padding: 0;
 }
 @media(min-width:48em) {
@@ -315,6 +315,262 @@ a.undp-style:focus-visible {
   .label {
       font-size: 1rem;
   }
+}
+
+.padding-left-00 {
+  padding-left: var(--spacing-00) !important;
+}
+
+.padding-right-00 {
+  padding-right: var(--spacing-00) !important;
+}
+
+.padding-left-01 {
+  padding-left: var(--spacing-01) !important;
+}
+
+.padding-right-01 {
+  padding-right: var(--spacing-01) !important;
+}
+
+.padding-left-01 {
+  padding-left: var(--spacing-01) !important;
+}
+
+.padding-right-01 {
+  padding-right: var(--spacing-01) !important;
+}
+
+.padding-left-02 {
+  padding-left: var(--spacing-02) !important;
+}
+
+.padding-right-02 {
+  padding-right: var(--spacing-02) !important;
+}
+
+.padding-left-02 {
+  padding-left: var(--spacing-02) !important;
+}
+
+.padding-right-02 {
+  padding-right: var(--spacing-02) !important;
+}
+
+.padding-left-03 {
+  padding-left: var(--spacing-03) !important;
+}
+
+.padding-right-03 {
+  padding-right: var(--spacing-03) !important;
+}
+
+.padding-left-04 {
+  padding-left: var(--spacing-04) !important;
+}
+
+.padding-right-04 {
+  padding-right: var(--spacing-04) !important;
+}
+
+.padding-left-05 {
+  padding-left: var(--spacing-05) !important;
+}
+
+.padding-right-05 {
+  padding-right: var(--spacing-05) !important;
+}
+
+.padding-left-06 {
+  padding-left: var(--spacing-06) !important;
+}
+
+.padding-right-06 {
+  padding-right: var(--spacing-06) !important;
+}
+
+.padding-left-07 {
+  padding-left: var(--spacing-07) !important;
+}
+
+.padding-right-07 {
+  padding-right: var(--spacing-07) !important;
+}
+
+.padding-left-08 {
+  padding-left: var(--spacing-08) !important;
+}
+
+.padding-right-08 {
+  padding-right: var(--spacing-08) !important;
+}
+
+.padding-left-09 {
+  padding-left: var(--spacing-09) !important;
+}
+
+.padding-right-09 {
+  padding-right: var(--spacing-09) !important;
+}
+
+.padding-left-10 {
+  padding-left: var(--spacing-10) !important;
+}
+
+.padding-right-10 {
+  padding-right: var(--spacing-10) !important;
+}
+
+.padding-left-11 {
+  padding-left: var(--spacing-11) !important;
+}
+
+.padding-right-11 {
+  padding-right: var(--spacing-11) !important;
+}
+
+.padding-left-12 {
+  padding-left: var(--spacing-12) !important;
+}
+
+.padding-right-12 {
+  padding-right: var(--spacing-12) !important;
+}
+
+.padding-left-13 {
+  padding-left: var(--spacing-13) !important;
+}
+
+.padding-right-13 {
+  padding-right: var(--spacing-13) !important;
+}
+
+.margin-left-00 {
+  margin-left: var(--spacing-00) !important;
+}
+
+.margin-right-00 {
+  margin-right: var(--spacing-00) !important;
+}
+
+.margin-left-01 {
+  margin-left: var(--spacing-01) !important;
+}
+
+.margin-right-01 {
+  margin-right: var(--spacing-01) !important;
+}
+
+.margin-left-01 {
+  margin-left: var(--spacing-01) !important;
+}
+
+.margin-right-01 {
+  margin-right: var(--spacing-01) !important;
+}
+
+.margin-left-02 {
+  margin-left: var(--spacing-02) !important;
+}
+
+.margin-right-02 {
+  margin-right: var(--spacing-02) !important;
+}
+
+.margin-left-02 {
+  margin-left: var(--spacing-02) !important;
+}
+
+.margin-right-02 {
+  margin-right: var(--spacing-02) !important;
+}
+
+.margin-left-03 {
+  margin-left: var(--spacing-03) !important;
+}
+
+.margin-right-03 {
+  margin-right: var(--spacing-03) !important;
+}
+
+.margin-left-04 {
+  margin-left: var(--spacing-04) !important;
+}
+
+.margin-right-04 {
+  margin-right: var(--spacing-04) !important;
+}
+
+.margin-left-05 {
+  margin-left: var(--spacing-05) !important;
+}
+
+.margin-right-05 {
+  margin-right: var(--spacing-05) !important;
+}
+
+.margin-left-06 {
+  margin-left: var(--spacing-06) !important;
+}
+
+.margin-right-06 {
+  margin-right: var(--spacing-06) !important;
+}
+
+.margin-left-07 {
+  margin-left: var(--spacing-07) !important;
+}
+
+.margin-right-07 {
+  margin-right: var(--spacing-07) !important;
+}
+
+.margin-left-08 {
+  margin-left: var(--spacing-08) !important;
+}
+
+.margin-right-08 {
+  margin-right: var(--spacing-08) !important;
+}
+
+.margin-left-09 {
+  margin-left: var(--spacing-09) !important;
+}
+
+.margin-right-09 {
+  margin-right: var(--spacing-09) !important;
+}
+
+.margin-left-10 {
+  margin-left: var(--spacing-10) !important;
+}
+
+.margin-right-10 {
+  margin-right: var(--spacing-10) !important;
+}
+
+.margin-left-11 {
+  margin-left: var(--spacing-11) !important;
+}
+
+.margin-right-11 {
+  margin-right: var(--spacing-11) !important;
+}
+
+.margin-left-12 {
+  margin-left: var(--spacing-12) !important;
+}
+
+.margin-right-12 {
+  margin-right: var(--spacing-12) !important;
+}
+
+.margin-left-13 {
+  margin-left: var(--spacing-13) !important;
+}
+
+.margin-right-13 {
+  margin-right: var(--spacing-13) !important;
 }
 
 .padding-top-00 {
@@ -573,133 +829,6 @@ a.undp-style:focus-visible {
   margin-bottom: var(--spacing-13) !important;
 }
 
-.padding-top-00 {
-  padding-top: var(--spacing-00) !important;
-}
-
-.padding-bottom-00 {
-  padding-bottom: var(--spacing-00) !important;
-}
-
-.padding-top-01 {
-  padding-top: var(--spacing-01) !important;
-}
-
-.padding-bottom-01 {
-  padding-bottom: var(--spacing-01) !important;
-}
-
-.padding-top-01 {
-  padding-top: var(--spacing-01) !important;
-}
-
-.padding-bottom-01 {
-  padding-bottom: var(--spacing-01) !important;
-}
-
-.padding-top-02 {
-  padding-top: var(--spacing-02) !important;
-}
-
-.padding-bottom-02 {
-  padding-bottom: var(--spacing-02) !important;
-}
-
-.padding-top-02 {
-  padding-top: var(--spacing-02) !important;
-}
-
-.padding-bottom-02 {
-  padding-bottom: var(--spacing-02) !important;
-}
-
-.padding-top-03 {
-  padding-top: var(--spacing-03) !important;
-}
-
-.padding-bottom-03 {
-  padding-bottom: var(--spacing-03) !important;
-}
-
-.padding-top-04 {
-  padding-top: var(--spacing-04) !important;
-}
-
-.padding-bottom-04 {
-  padding-bottom: var(--spacing-04) !important;
-}
-
-.padding-top-05 {
-  padding-top: var(--spacing-05) !important;
-}
-
-.padding-bottom-05 {
-  padding-bottom: var(--spacing-05) !important;
-}
-
-.padding-top-06 {
-  padding-top: var(--spacing-06) !important;
-}
-
-.padding-bottom-06 {
-  padding-bottom: var(--spacing-06) !important;
-}
-
-.padding-top-07 {
-  padding-top: var(--spacing-07) !important;
-}
-
-.padding-bottom-07 {
-  padding-bottom: var(--spacing-07) !important;
-}
-
-.padding-top-08 {
-  padding-top: var(--spacing-08) !important;
-}
-
-.padding-bottom-08 {
-  padding-bottom: var(--spacing-08) !important;
-}
-
-.padding-top-09 {
-  padding-top: var(--spacing-09) !important;
-}
-
-.padding-bottom-09 {
-  padding-bottom: var(--spacing-09) !important;
-}
-
-.padding-top-10 {
-  padding-top: var(--spacing-10) !important;
-}
-
-.padding-bottom-10 {
-  padding-bottom: var(--spacing-10) !important;
-}
-
-.padding-top-11 {
-  padding-top: var(--spacing-11) !important;
-}
-
-.padding-bottom-11 {
-  padding-bottom: var(--spacing-11) !important;
-}
-
-.padding-top-12 {
-  padding-top: var(--spacing-12) !important;
-}
-
-.padding-bottom-12 {
-  padding-bottom: var(--spacing-12) !important;
-}
-
-.padding-top-13 {
-  padding-top: var(--spacing-13) !important;
-}
-
-.padding-bottom-13 {
-  padding-bottom: var(--spacing-13) !important;
-}
 
 .tooltip {
   padding: 2rem;
@@ -889,6 +1018,13 @@ a.undp-style:focus-visible {
   content: "";
   width: 13px;
   opacity: 0.3;
+}
+
+.undp-button.button-no-background{  
+  background-color: transparent !important;
+  border: 0 !important;
+  cursor: pointer !important;
+  padding: 0 !important;
 }
 
 
@@ -1697,12 +1833,26 @@ a.undp-style:focus-visible {
 
 .stat-card {
   padding: 2rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 17.5rem;
   background-color: var(--gray-200);
   font-size: 1.25rem;
   color: var(--black);
   transition: 300ms all;
-  flex-grow: 1;
   height: auto !important;
+}
+@media (max-width: 48em) {
+  .stats-card {
+    padding: 1.5rem;
+  }
+}
+
+
+@media (min-width: 48em) {
+  .undp-container, p.undp-style {
+      font-size: 1.25rem;
+  }
 }
 
 .stat-card:hover {
@@ -1723,7 +1873,7 @@ a.undp-style:focus-visible {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-@media (min-width: 48em) {
+@media (max-width: 48em) {
   .stats-card.small h2 {
     font-size: 4.375rem;
   }
@@ -1739,7 +1889,7 @@ a.undp-style:focus-visible {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 48em) {
+@media (max-width: 48em) {
     .stats-card.small h3 {
       font-size: 3.5rem;
   }
