@@ -1,3 +1,49 @@
+.tabs-for-graphing-interface-container {
+  background-color: var(--gray-200);
+  display: flex;
+  gap: 0;
+}
+
+.tabs-for-graphing-interface{
+  font-size: 0.875rem;
+  padding: var(--spacing-05);
+  flex-basis: 6.25rem;
+  flex-grow: 1;
+  max-width: 17.5rem;
+  text-transform: uppercase;
+  justify-content: center;
+  background-color: transparent;
+  color: var(--gray-700) ;
+  text-align: center;
+  border: 0;
+  border-right: 1px solid var(--gray-500);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.tabs-for-graphing-interface:hover{
+  opacity: 1;
+}
+
+.tabs-for-graphing-interface:last-of-type{
+  border-right:0;
+}
+
+.tabs-for-graphing-interface.selected{
+  background-color: var(--white);
+  color: var(--blue-600);
+  opacity: 1;
+}
+
+@media (max-width: 700px) {
+  .tabs-for-graphing-interface{
+    font-size: 0.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 .settings-container {
   width: 25%;
   max-width: 30rem;
