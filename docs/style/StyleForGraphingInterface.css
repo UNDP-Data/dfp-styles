@@ -1,3 +1,8 @@
+.dashboard-container {  
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-400);
+}
+
 .tabs-for-graphing-interface-container {
   background-color: var(--gray-200);
   display: flex;
@@ -44,6 +49,17 @@
   }
 }
 
+.graph-container {
+  display: flex;
+  align-items: stretch;
+}
+
+@media (max-width: 960px) {
+  .graph-container {
+    display: inline;
+  }
+}  
+
 .settings-container {
   width: 25%;
   max-width: 30rem;
@@ -54,21 +70,25 @@
   background-color: var(--white);
 }
 
-.graph-container {
+.graph-el {
   flex-grow: 1;
   flex-shrink: 1;
   display: flex;
   flex-direction: column;
 }
 
+.graph-el.no-overflow {
+  overflow: hidden;
+}
+
 @media (min-width: 961px) {
-  .graph-container {
+  .graph-el {
     height: 80vh;
     min-height: 46.25rem;
   }
 }
 @media (max-width: 960px) {
-  .graph-container {
+  .graph-el {
     width: 100%;
   }
 
@@ -87,13 +107,23 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: var(--spacing-05);
   border-bottom: 1px solid var(--gray-400);
   padding: var(--spacing-05);
 }
 
 .settings-option-container:last-of-type {
   border-bottom: 0;
+}
+
+.settings-option-container-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-06);
+  gap: 0.52rem;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
 }
 
 .settings-option-div {
