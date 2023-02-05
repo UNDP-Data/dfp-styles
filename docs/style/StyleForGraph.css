@@ -1,9 +1,18 @@
 .bivariate-legend-container {
+  width: 20rem;
+  margin-left: 0.75rem;
+  position: relative;
+  z-index: 5;
+  height: 0;
   display: flex;
-  margin-top: -2rem;
-  pointer-events: none;
-  margin-left: 1rem;
-  padding-top: 1rem;
+  align-items: flex-end;
+}
+
+.bivariate-legend-el {
+  background-color: rgba(255,255,255,0.75);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 @media (min-width: 961px) {    
@@ -74,14 +83,20 @@
 }
 
 .univariate-legend-container {
-  padding: 0.75rem 0.75rem 0 0.75rem;
-  background-color: rgba(255,255,255, 0.75);
   width: 20rem;
   margin-left: 0.75rem;
-  margin-top: -2rem;
   position: relative;
   z-index: 5;
+  height: 0;
+  display: flex;
+  align-items: flex-end;
 }
+
+.univariate-legend-el {
+  background-color: rgba(255,255,255,0.75);
+  margin-bottom: 0.75rem;
+}
+
 
 @media (min-width: 961px) {    
   .univariate-legend-container {
