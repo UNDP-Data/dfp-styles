@@ -307,13 +307,13 @@ a.undp-style:focus-visible {
 .label {
   margin-bottom: var(--spacing-03);
   margin-top: 0;
-  font-size: 0.875rem;
+  font-size: 0.875rem !important;
   line-height: 1.4;
 }
 
 @media (min-width: 48em) {
   .label {
-      font-size: 1rem;
+      font-size: 1rem !important;
   }
 }
 

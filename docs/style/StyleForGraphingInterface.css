@@ -143,6 +143,14 @@
   margin-bottom: var(--spacing-05);
 }
 
+.settings-sections-container-title>div>div {
+  margin: 0 !important;
+}
+
+.settings-sections-container-title>h6 {
+  margin-top: 2px !important;
+}
+
 .settings-option-div {
   flex-shrink: 1;
   flex-grow: 1;
