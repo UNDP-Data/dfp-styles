@@ -199,3 +199,25 @@
   font-size: 1rem;
   top: 0;
 }
+
+.center-area-info-el {  
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-300);
+  position: relative;
+}
+
+.center-area-error-el {  
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: var(--dark-red);
+  text-align: center;
+  background-color: var(--white);
+  border: 1px solid var(--dark-red);
+  position: relative;
+}
