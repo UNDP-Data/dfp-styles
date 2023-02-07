@@ -1593,6 +1593,17 @@ undp-no-overflow{
   padding: 0;
 }
 
+.undp-select .ant-select-item.ant-select-item-group{
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--gray-300);
+  color: var(--gray-700);
+}
+
 .clearIcon {
   background: url(https://design.undp.org/icons/times-circle.svg) no-repeat center center;
   width: 1.5rem;
