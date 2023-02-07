@@ -156,7 +156,8 @@
   flex-grow: 1;
   flex-basis: 15rem;
   width: -webkit-fill-available;
-  width: -moz-fill-available;
+  width: -moz-available;
+  width: fill-available;
 }
 
 .slider-background {
