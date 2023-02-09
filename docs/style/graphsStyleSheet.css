@@ -1,0 +1,405 @@
+:root{
+  --graph-background-color: #F7F7F7;
+  --graph-main-color: #006EB5;
+  --graph-gray: #D4D6D8;
+
+  --graph-categorical-01: #006eb5;
+  --graph-categorical-02: #5DD4F0;
+  --graph-categorical-03: #02A38A;
+  --graph-categorical-04: #E78625;
+  --graph-categorical-05: #E0529E;
+  --graph-categorical-06: #FC6932;
+  --graph-categorical-07: #757AF0;
+  --graph-categorical-08: #A0C236;
+  --graph-categorical-09: #FBC412;
+  --graph-categorical-10: #746960;
+
+  --graph-categorical-male: #02A38A;
+  --graph-categorical-female: #757AF0;
+
+  --graph-categorical-urban: #006eb5;
+  --graph-categorical-rural: #5DD4F0;
+
+  --graph-sequential-neutralx04-04: #4541bc;
+  --graph-sequential-neutralx04-03: #7279db;
+  --graph-sequential-neutralx04-02: #9eb2f9;
+  --graph-sequential-neutralx04-01: #d9ecff;
+  
+  --graph-sequential-neutralx05-05: #4541bc;
+  --graph-sequential-neutralx05-04: #676bd3;
+  --graph-sequential-neutralx05-03: #8895ea;
+  --graph-sequential-neutralx05-02: #aac0ff;
+  --graph-sequential-neutralx05-01: #d9ecff;
+  
+  --graph-sequential-neutralx06-06: #4541bc;
+  --graph-sequential-neutralx06-05: #6063cf;
+  --graph-sequential-neutralx06-04: #7b84e1;
+  --graph-sequential-neutralx06-03: #95a6f3;
+  --graph-sequential-neutralx06-02: #b4c9ff;
+  --graph-sequential-neutralx06-01: #d9ecff;
+  
+  --graph-sequential-neutralx07-07: #4541bc;
+  --graph-sequential-neutralx07-06: #5c5dcc;
+  --graph-sequential-neutralx07-05: #7279db;
+  --graph-sequential-neutralx07-04: #8895ea;
+  --graph-sequential-neutralx07-03: #9eb2f9;
+  --graph-sequential-neutralx07-02: #bacfff;
+  --graph-sequential-neutralx07-01: #d9ecff;
+  
+  --graph-sequential-neutralx08-08: #4541bc;
+  --graph-sequential-neutralx08-07: #5959c9;
+  --graph-sequential-neutralx08-06: #6b71d6;
+  --graph-sequential-neutralx08-05: #7e89e3;
+  --graph-sequential-neutralx08-04: #91a1f0;
+  --graph-sequential-neutralx08-03: #a5bafe;
+  --graph-sequential-neutralx08-02: #bfd3ff;
+  --graph-sequential-neutralx08-01: #d9ecff;
+  
+  --graph-sequential-neutralx09-09: #4541bc;
+  --graph-sequential-neutralx09-08: #5656c8;
+  --graph-sequential-neutralx09-07: #676bd3;
+  --graph-sequential-neutralx09-06: #7780de;
+  --graph-sequential-neutralx09-05: #8895ea;
+  --graph-sequential-neutralx09-04: #99abf5;
+  --graph-sequential-neutralx09-03: #aac0ff;
+  --graph-sequential-neutralx09-02: #c2d6ff;
+  --graph-sequential-neutralx09-01: #d9ecff;
+  
+  --graph-sequential-neutralx10-10: #4541bc;
+  --graph-sequential-neutralx10-09: #5454c6;
+  --graph-sequential-neutralx10-08: #6367d1;
+  --graph-sequential-neutralx10-07: #7279db;
+  --graph-sequential-neutralx10-06: #808ce5;
+  --graph-sequential-neutralx10-05: #8f9fef;
+  --graph-sequential-neutralx10-04: #9eb2f9;
+  --graph-sequential-neutralx10-03: #b0c5ff;
+  --graph-sequential-neutralx10-02: #c4d8ff;
+  --graph-sequential-neutralx10-01: #d9ecff;
+  
+  --graph-sequential-positivex04-04: #003f80;
+  --graph-sequential-positivex04-03: #0080ba;
+  --graph-sequential-positivex04-02: #50c6d1;
+  --graph-sequential-positivex04-01: #e5ffea;
+
+  --graph-sequential-positivex05-05: #003f80;
+  --graph-sequential-positivex05-04: #006db4;
+  --graph-sequential-positivex05-03: #00a5c3;
+  --graph-sequential-positivex05-02: #78d5d8;
+  --graph-sequential-positivex05-01: #e5ffea;
+
+  --graph-sequential-positivex06-06: #003f80;
+  --graph-sequential-positivex06-05: #0064aa;
+  --graph-sequential-positivex06-04: #008fbd;
+  --graph-sequential-positivex06-03: #2fbacc;
+  --graph-sequential-positivex06-02: #8ededc;
+  --graph-sequential-positivex06-01: #e5ffea;
+
+  --graph-sequential-positivex07-07: #003f80;
+  --graph-sequential-positivex07-06: #005ea3;
+  --graph-sequential-positivex07-05: #0080ba;
+  --graph-sequential-positivex07-04: #00a5c3;
+  --graph-sequential-positivex07-03: #50c6d1;
+  --graph-sequential-positivex07-02: #9de4de;
+  --graph-sequential-positivex07-01: #e5ffea;
+
+  --graph-sequential-positivex08-08: #003f80;
+  --graph-sequential-positivex08-07: #00599d;
+  --graph-sequential-positivex08-06: #0075b7;
+  --graph-sequential-positivex08-05: #0095bf;
+  --graph-sequential-positivex08-04: #20b4c9;
+  --graph-sequential-positivex08-03: #67cfd5;
+  --graph-sequential-positivex08-02: #a8e8e0;
+  --graph-sequential-positivex08-01: #e5ffea;
+
+  --graph-sequential-positivex09-09: #003f80;
+  --graph-sequential-positivex09-08: #00569a;
+  --graph-sequential-positivex09-07: #006db4;
+  --graph-sequential-positivex09-06: #0089bc;
+  --graph-sequential-positivex09-05: #00a5c3;
+  --graph-sequential-positivex09-04: #3bbfce;
+  --graph-sequential-positivex09-03: #78d5d8;
+  --graph-sequential-positivex09-02: #afebe1;
+  --graph-sequential-positivex09-01: #e5ffea;
+
+  --graph-sequential-positivex10-10: #003f80;
+  --graph-sequential-positivex10-09: #005397;
+  --graph-sequential-positivex10-08: #0068ae;
+  --graph-sequential-positivex10-07: #0080ba;
+  --graph-sequential-positivex10-06: #0099c0;
+  --graph-sequential-positivex10-05: #17b1c8;
+  --graph-sequential-positivex10-04: #50c6d1;
+  --graph-sequential-positivex10-03: #84dada;
+  --graph-sequential-positivex10-02: #b6ede2;
+  --graph-sequential-positivex10-01: #e5ffea;
+
+  --graph-sequential-negativex04-04: #650000;
+  --graph-sequential-negativex04-03: #c72211;
+  --graph-sequential-negativex04-02: #fe8102;
+  --graph-sequential-negativex04-01: #f0e4d7; 
+
+  --graph-sequential-negativex05-05: #650000;
+  --graph-sequential-negativex05-04: #ad190d;
+  --graph-sequential-negativex05-03: #f54014;
+  --graph-sequential-negativex05-02: #fc9e31;
+  --graph-sequential-negativex05-01: #f0e4d7;
+
+  --graph-sequential-negativex06-06: #650000;
+  --graph-sequential-negativex06-05: #9e140a;
+  --graph-sequential-negativex06-04: #dc2915;
+  --graph-sequential-negativex06-03: #fb6a09;
+  --graph-sequential-negativex06-02: #f9ae57;
+  --graph-sequential-negativex06-01: #f0e4d7;
+
+  --graph-sequential-negativex07-07: #650000;
+  --graph-sequential-negativex07-06: #941008;
+  --graph-sequential-negativex07-05: #c72211;
+  --graph-sequential-negativex07-04: #f54014;
+  --graph-sequential-negativex07-03: #fe8102;
+  --graph-sequential-negativex07-02: #f7b86e;
+  --graph-sequential-negativex07-01: #f0e4d7;
+
+  --graph-sequential-negativex08-08: #650000;
+  --graph-sequential-negativex08-07: #7e2c0d;
+  --graph-sequential-negativex08-06: #b81d0e;
+  --graph-sequential-negativex08-05: #e42c16;
+  --graph-sequential-negativex08-04: #f9600c;
+  --graph-sequential-negativex08-03: #fe9213;
+  --graph-sequential-negativex08-02: #f6bf7e;
+  --graph-sequential-negativex08-01: #f0e4d7;
+
+  --graph-sequential-negativex09-09: #650000;
+  --graph-sequential-negativex09-08: #880c06;
+  --graph-sequential-negativex09-07: #ad190d;
+  --graph-sequential-negativex09-06: #d42613;
+  --graph-sequential-negativex09-05: #f54014;
+  --graph-sequential-negativex09-04: #fc7306;
+  --graph-sequential-negativex09-03: #fc9e31;
+  --graph-sequential-negativex09-02: #f5c48a;
+  --graph-sequential-negativex09-01: #f0e4d7;
+
+  --graph-sequential-negativex10-10: #650000;
+  --graph-sequential-negativex10-09: #840b05;
+  --graph-sequential-negativex10-08: #a5160b;
+  --graph-sequential-negativex10-07: #c72211;
+  --graph-sequential-negativex10-06: #ea2e17;
+  --graph-sequential-negativex10-05: #f8590e;
+  --graph-sequential-negativex10-04: #fe8102;
+  --graph-sequential-negativex10-03: #faa746;
+  --graph-sequential-negativex10-02: #f5c793;
+  --graph-sequential-negativex10-01: #f0e4d7;
+
+  --graph-divergentx04-04: #005c97;
+  --graph-divergentx04-03: #4cabdb;
+  --graph-divergentx04-02: #fc8335;
+  --graph-divergentx04-01: #be0800;
+
+  --graph-divergentx05-05: #005c97;
+  --graph-divergentx05-04: #4cabdb;
+  --graph-divergentx05-03: #f1f1f1;
+  --graph-divergentx05-02: #fc8335;
+  --graph-divergentx05-01: #be0800;
+
+  --graph-divergentx06-06: #005c97;
+  --graph-divergentx06-05: #3390c4;
+  --graph-divergentx06-04: #67c6f2;
+  --graph-divergentx06-03: #f8ac7c;
+  --graph-divergentx06-02: #f25a0e;
+  --graph-divergentx06-01: #be0800;
+
+  --graph-divergentx07-07: #005c97;
+  --graph-divergentx07-06: #3390c4;
+  --graph-divergentx07-05: #67c6f2;
+  --graph-divergentx07-04: #f1f1f1;
+  --graph-divergentx07-03: #f8ac7c;
+  --graph-divergentx07-02: #f25a0e;
+  --graph-divergentx07-01: #be0800;
+
+  --graph-divergentx08-08: #005c97;
+  --graph-divergentx08-07: #2683b8;
+  --graph-divergentx08-06: #4cabdb;
+  --graph-divergentx08-05: #7cd4fa;
+  --graph-divergentx08-04: #f6bf9b;
+  --graph-divergentx08-03: #fc8335;
+  --graph-divergentx08-02: #e6480b;
+  --graph-divergentx08-01: #be0800;
+
+  --graph-divergentx09-09: #5a1f09;
+  --graph-divergentx09-08: #7e2c0d;
+  --graph-divergentx09-07: #a53910;
+  --graph-divergentx09-06: #cd4714;
+  --graph-divergentx09-05: #f65518;
+  --graph-divergentx09-04: #ff8227;
+  --graph-divergentx09-03: #ffab6e;
+  --graph-divergentx09-02: #ffcfac;
+  --graph-divergentx09-01: #fff0e6;
+
+  --graph-divergentx10-10: #005c97;
+  --graph-divergentx10-09: #2683b8;
+  --graph-divergentx10-08: #4cabdb;
+  --graph-divergentx10-07: #7cd4fa;
+  --graph-divergentx10-06: #f1f1f1;
+  --graph-divergentx10-05: #f6bf9b;
+  --graph-divergentx10-04: #fc8335;
+  --graph-divergentx10-03: #fc8335;
+  --graph-divergentx10-02: #e6480b;
+  --graph-divergentx10-01: #be0800;
+
+  --graph-divergentx11-11: #005c97;
+  --graph-divergentx11-10: #1e7bb2;
+  --graph-divergentx11-09: #3d9bcd;
+  --graph-divergentx11-08: #5cbbe9;
+  --graph-divergentx11-07: #95daf8;
+  --graph-divergentx11-06: #f1f1f1;
+  --graph-divergentx11-05: #f5c9ad;
+  --graph-divergentx11-04: #f99d61;
+  --graph-divergentx11-03: #fa6810;
+  --graph-divergentx11-02: #df3d09;
+  --graph-divergentx11-01: #be0800;
+
+  --graph-bivariate-04x04-01x01: #D1D7D8;
+  --graph-bivariate-04x04-01x02: #92BBD4;
+  --graph-bivariate-04x04-01x03: #4D9ECF;
+  --graph-bivariate-04x04-01x04: #007CC9;
+  --graph-bivariate-04x04-02x01: #D6CAA7;
+  --graph-bivariate-04x04-02x02: #95AFA3;
+  --graph-bivariate-04x04-02x03: #4F94A0;
+  --graph-bivariate-04x04-02x04: #00749B;
+  --graph-bivariate-04x04-03x01: #D9BE71;
+  --graph-bivariate-04x04-03x02: #98A66F;
+  --graph-bivariate-04x04-03x03: #508C6C;
+  --graph-bivariate-04x04-03x04: #006E69;
+  --graph-bivariate-04x04-04x01: #D1D7D8;
+  --graph-bivariate-04x04-04x02: #9B9929;
+  --graph-bivariate-04x04-04x03: #528228;
+  --graph-bivariate-04x04-04x04: #006539;
+
+  --graph-bivariate-04x05-01x01: #DAE0E2;
+  --graph-bivariate-04x05-01x02: #A8CADE;
+  --graph-bivariate-04x05-01x03: #76B4DA;
+  --graph-bivariate-04x05-01x04: #3D9DD7;
+  --graph-bivariate-04x05-01x05: #0081D6;
+  --graph-bivariate-04x05-02x01: #DFD3AE;
+  --graph-bivariate-04x05-02x02: #ACBFAB;
+  --graph-bivariate-04x05-02x03: #78A9A8;
+  --graph-bivariate-04x05-02x04: #3E93A5;
+  --graph-bivariate-04x05-02x05: #007AA5;
+  --graph-bivariate-04x05-03x01: #E4C776;
+  --graph-bivariate-04x05-03x02: #B0B474;
+  --graph-bivariate-04x05-03x03: #7BA072;
+  --graph-bivariate-04x05-03x04: #408B70;
+  --graph-bivariate-04x05-03x05: #00736F;
+  --graph-bivariate-04x05-04x01: #E8B82B;
+  --graph-bivariate-04x05-04x02: #B3A62B;
+  --graph-bivariate-04x05-04x03: #7D942A;
+  --graph-bivariate-04x05-04x04: #418029;
+  --graph-bivariate-04x05-04x05: #006A29;
+
+  --graph-bivariate-05x04-01x01: #B0B4B7;
+  --graph-bivariate-05x04-01x02: #7898AD;
+  --graph-bivariate-05x04-01x03: #3E7CA2;
+  --graph-bivariate-05x04-01x04: #005D97;
+  --graph-bivariate-05x04-02x01: #81ADA1;
+  --graph-bivariate-05x04-02x02: #589299;
+  --graph-bivariate-05x04-02x03: #2C7790;
+  --graph-bivariate-05x04-02x04: #005A85;
+  --graph-bivariate-05x04-03x01: #4AA488;
+  --graph-bivariate-05x04-03x02: #338B80;
+  --graph-bivariate-05x04-03x03: #197179;
+  --graph-bivariate-05x04-03x04: #005570;
+  --graph-bivariate-05x04-04x01: #009A65;
+  --graph-bivariate-05x04-04x02: #00825F;
+  --graph-bivariate-05x04-04x03: #00695A;
+  --graph-bivariate-05x04-04x04: #004F53;
+  --graph-bivariate-05x04-05x01: #009A65;
+  --graph-bivariate-05x04-05x02: #00825F;
+  --graph-bivariate-05x04-05x03: #00695A;
+  --graph-bivariate-05x04-05x04: #004F53;
+
+  --graph-bivariate-05x05-01x01: #DAE0E2;
+  --graph-bivariate-05x05-01x02: #A8CADE;
+  --graph-bivariate-05x05-01x03: #76B4DA;
+  --graph-bivariate-05x05-01x04: #3D9DD7;
+  --graph-bivariate-05x05-01x05: #0081D6;
+  --graph-bivariate-05x05-02x01: #DED7B8;
+  --graph-bivariate-05x05-02x02: #ABC2B4;
+  --graph-bivariate-05x05-02x03: #78ACB1;
+  --graph-bivariate-05x05-02x04: #3E96AE;
+  --graph-bivariate-05x05-02x05: #007CAE;
+  --graph-bivariate-05x05-03x01: #E1CE89;
+  --graph-bivariate-05x05-03x02: #ADBA87;
+  --graph-bivariate-05x05-03x03: #79A685;
+  --graph-bivariate-05x05-03x04: #3F9083;
+  --graph-bivariate-05x05-03x05: #007782;
+  --graph-bivariate-05x05-04x01: #E6C358;
+  --graph-bivariate-05x05-04x02: #B1B057;
+  --graph-bivariate-05x05-04x03: #7C9D56;
+  --graph-bivariate-05x05-04x04: #408854;
+  --graph-bivariate-05x05-04x05: #007154;
+  --graph-bivariate-05x05-05x01: #E8B82B;
+  --graph-bivariate-05x05-05x02: #B3A62B;
+  --graph-bivariate-05x05-05x03: #7D942A;
+  --graph-bivariate-05x05-05x04: #418029;
+  --graph-bivariate-05x05-05x05: #006A29;
+}
+
+.x-axis {
+  stroke: var(--gray-700);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+  stroke-linecap: round;
+}
+
+.x-ticks {
+  stroke: var(--gray-500);
+  stroke-width: 1;
+  stroke-dasharray: 4 8;
+  shape-rendering: crispEdges;
+  stroke-linecap: round;
+}
+
+.x-tick-values{
+  fill: var(--gray-600);
+  text-anchor: middle;
+  font-size: 0.875rem;
+}
+
+.x-tick-title{
+  fill: var(--gray-700);
+  text-anchor: middle;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.y-axis {
+  stroke: var(--gray-700);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+  stroke-linecap: round;
+}
+
+.y-ticks{
+  stroke: var(--gray-500);
+  stroke-width: 1;
+  stroke-dasharray: 4 8;
+  shape-rendering: crispEdges;
+  stroke-linecap: round;
+}
+
+.y-tick-values{
+  fill: var(--gray-600);
+  text-anchor: end;
+  font-size: 0.75rem;
+}
+
+.y-tick-title{
+  fill: var(--gray-700);
+  text-anchor: middle;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.graph-title {
+  fill: var(--gray-700);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
