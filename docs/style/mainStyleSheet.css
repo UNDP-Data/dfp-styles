@@ -1874,8 +1874,8 @@ undp-no-overflow{
   background-color: var(--light-yellow);
 }
 
-.stat-card:hover h2 {
-  color: var(--black);
+.stat-card.no-hover:hover{  
+  background-color: var(--gray-200);
 }
 
 .stat-card h2 {
@@ -1910,8 +1910,20 @@ undp-no-overflow{
   }
 }
 
+.stat-card:hover h2 {
+  color: var(--black);
+}
+
+.stat-card.no-hover:hover h2 {  
+  color: var(--gray-200);
+}
+
 .stat-card:hover h3 {
   color: var(--black);
+}
+
+.stat-card.no-hover:hover h3 {
+  color: var(--gray-200);
 }
 
 .stat-card h4 {
