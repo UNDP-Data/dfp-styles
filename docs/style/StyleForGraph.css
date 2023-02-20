@@ -1,7 +1,8 @@
 .bivariate-legend-container {
   width: 20rem;
   margin-left: 0.75rem;
-  position: relative;
+  position: sticky;
+  bottom: 0;
   z-index: 5;
   height: 0;
   display: flex;
@@ -69,7 +70,7 @@
 .bivariate-map-size-legend-text {  
   font-size: 0.75rem !important;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
