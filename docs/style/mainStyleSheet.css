@@ -41,7 +41,8 @@
   --spacing-11: 5rem;
   --spacing-12: 6rem;
   --spacing-13: 7rem;
-  --fontFamily: 'ProximaNova', 'proxima-nova', 'Helvetica Neue', 'sans-serif'
+  --fontFamily: 'ProximaNova', 'proxima-nova', 'Helvetica Neue', 'sans-serif';
+  --fontFamilyHeadings: 'SohneBreit', 'ProximaNova', 'proxima-nova', 'Helvetica Neue', 'sans-serif';
 }
 
 @keyframes lineLoop-animation-for-links {
@@ -1794,6 +1795,7 @@ undp-no-overflow{
   min-width: 1.5rem !important;
   text-align: center !important;
   font-family: var(--fontFamily) !important;
+  font-size: 0.75rem !important;
 }
 
 .undp-slider-tooltip-inner::before{
@@ -1912,6 +1914,7 @@ undp-no-overflow{
   letter-spacing: .05rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: var(--fontFamilyHeadings);
 }
 @media (max-width: 48em) {
   .stats-card.small h2 {
@@ -1927,6 +1930,7 @@ undp-no-overflow{
   letter-spacing: .05rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: var(--fontFamilyHeadings);
 }
 
 @media (max-width: 48em) {
