@@ -89,8 +89,12 @@ p.undp-typography {
   line-height: 1.4;
 }
 
+p.undp-typography.large-font{
+  font-size: 1.25rem !important;
+}
+
 @media (min-width: 48em) {
-  .undp-container, p.undp-style {
+  .undp-container, p.undp-typography {
       font-size: 1.25rem;
   }
 }
