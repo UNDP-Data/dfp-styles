@@ -2282,3 +2282,14 @@ undp-no-overflow{
 .header-link:hover {
   color: var(--blue-400) !important;
 }
+
+.undp-pagination .ant-pagination-item.ant-pagination-item-active {
+  border-radius: 2rem;
+  background-color: var(--blue-600);
+  font-size: 1rem;
+  font-family: var(--fontFamily);
+}
+
+.undp-pagination .ant-pagination-item.ant-pagination-item-active a{
+  color: var(--white);
+}
