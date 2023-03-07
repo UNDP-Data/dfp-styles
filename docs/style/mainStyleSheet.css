@@ -2260,3 +2260,25 @@ undp-no-overflow{
 .undp-footer-link:hover{
   opacity: 0.7;
 }
+
+.undp-nav-div {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  gap: 4.375rem;
+  text-transform: uppercase;
+}
+
+.undp-nav-div a {
+  color: var(--gray-700);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.header-link-active {
+  color: var(--blue-600) !important;
+}
+
+.header-link:hover {
+  color: var(--blue-400) !important;
+}
