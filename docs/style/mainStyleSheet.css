@@ -2176,7 +2176,7 @@ undp-no-overflow{
 .undp-hero-image {
   padding: 7rem;
   margin: 0 auto;
-  width: calc(100% - 1.5rem);
+  width: calc(100% - 14.5rem);
   color: var(--white);
 }
 
