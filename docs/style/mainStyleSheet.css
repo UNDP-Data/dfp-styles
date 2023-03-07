@@ -2230,7 +2230,7 @@ undp-no-overflow{
   height: auto;
   font-family: var(--fontFamily);
   background-color: var(--blue-600);
-  width: 100%;
+  width: calc(100% - 1.5rem);
   padding: 3.25rem 0.75rem 3rem 0.75rem;
   color: var(--white);
 }
