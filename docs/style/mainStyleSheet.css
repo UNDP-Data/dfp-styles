@@ -2293,3 +2293,34 @@ undp-no-overflow{
 .undp-pagination .ant-pagination-item.ant-pagination-item-active a{
   color: var(--white);
 }
+
+.undp-button-dropdown {
+  background-color: var(--gray-300);
+}
+
+.undp-button-dropdown:hover {
+  background-color: var(--gray-400);
+  color: var(--dark-red) !important;
+}
+
+.undp-button-dropdown:after {
+  transition: .2s ease;
+  background: url(https://design.undp.org/icons/chevron-down.svg) no-repeat left center;
+  color: var(--black);
+  height: 20px;
+  margin-left: 0.75rem;
+  content: "";
+  width: 13px;
+}
+
+.undp-dropdown-menu {
+  background-color: var(--gray-200);
+  border-radius: 0;
+}
+
+.undp-dropdown-menu .ant-dropdown-menu-item {
+  padding: var(--spacing-05);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+}
