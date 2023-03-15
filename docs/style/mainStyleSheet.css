@@ -2351,7 +2351,7 @@ undp-no-overflow{
 
 .undp-accordion-with-bg-item .ant-collapse-header {
   display: flex;
-  align-items: center;
+  align-items: center !important;
   padding: 1rem;
 }
 
