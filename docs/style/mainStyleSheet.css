@@ -2329,3 +2329,39 @@ undp-no-overflow{
   font-weight: 700 !important;
   font-size: 1rem !important;
 }
+
+.undp-accordion-with-bg {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  font-family: var(--fontFamily) !important;
+  color: var(--gray-700) !important;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-05);
+}
+
+.undp-accordion-with-bg-item {
+  padding: 1rem;
+  background-color: var(--gray-200);
+  border: 0;
+}
+
+
+.undp-accordion-with-bg-item .ant-collapse-header {
+  display: flex;
+  align-items: center;
+}
+
+.undp-accordion-with-bg-item .ant-collapse-header .ant-collapse-header-text{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.undp-accordion-with-bg-item .ant-collapse-content-box {
+  padding: 1rem;
+  background-color: var(--gray-200);
+}
