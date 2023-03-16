@@ -1207,6 +1207,7 @@ undp-no-overflow{
 }
 
 
+
 .undp-text-area{
   border: 2px solid var(--black);    
   padding: 0.625rem;
@@ -1243,6 +1244,11 @@ undp-no-overflow{
   border: 2px solid var(--blue-700); 
   box-shadow: 0 0 4px var(--blue-700);
   outline: 0;
+}
+
+.undp-input.antd-input-disabled{
+  color: var(--gray-500) !important;
+  background-color: var(--gray-100) !important;
 }
 
 .undp-input .ant-input-number-input{
