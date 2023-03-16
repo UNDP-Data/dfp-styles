@@ -1246,7 +1246,7 @@ undp-no-overflow{
   outline: 0;
 }
 
-.undp-input.antd-input-disabled{
+.undp-input.ant-input-disabled{
   color: var(--gray-500) !important;
   background-color: var(--gray-100) !important;
 }
