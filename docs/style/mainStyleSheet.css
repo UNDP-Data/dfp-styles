@@ -1140,7 +1140,7 @@ undp-no-overflow{
 
 .undp-country-header .undp-site-title {
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.25rem;
   margin-top: -0.25rem;
   margin-left: var(--spacing-03);
   padding: 0.438rem 0;
@@ -1150,6 +1150,7 @@ undp-no-overflow{
 @media  (min-width: 90em) {
   .undp-country-header .undp-site-title {
     font-size: 1.25rem;
+    line-height: 1.5rem;
     margin-right: 2rem;
     width: 14.4375rem;
   }  
