@@ -2056,27 +2056,28 @@ undp-no-overflow{
 }
 
 .undp-table-head-cell {
-  padding: .75rem 2.5rem .75rem .75rem;
+  padding: 1rem 0;
   background-color: var(--gray-300);
 }
 
 .undp-table-row {
   display: flex;
-  border-bottom: 1px solid var(--gray-400);
 }
 
 .undp-table-row-cell {
-  padding: .75rem 2.5rem .75rem .75rem;
+  padding: .75rem 0;
   font-size: 1.25rem;
   color: var(--black);
   background-color: #fff;
+  border-bottom: 1px solid var(--gray-400);
 }
 
 .undp-table-row-cell-small {
-  padding: .75rem 2.5rem .75rem .75rem;
+  padding: 1rem 0;
   font-size: 1rem;
   color: var(--black);
   background-color: #fff;
+  border-bottom: 1px solid var(--gray-400);
 }
 
 .undp-tabs .ant-tabs-nav {
