@@ -1220,13 +1220,13 @@ undp-no-overflow{
   font-family: var(--fontFamily);
 }
 
-.undp-search input.ant-input{
+.undp-search > .ant-input-group .ant-input{
   border: 0 !important;
   padding: 11px 12px !important;
 }
 
 .undp-search .ant-input-group-addon{
-  background-color: var(--blue-300);
+  background-color: var(--blue-600);
   border-radius: 0 !important;
 }
 
