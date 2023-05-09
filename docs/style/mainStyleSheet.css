@@ -1207,7 +1207,35 @@ undp-no-overflow{
   font-family: var(--fontFamily);
 }
 
+.undp-search > .ant-input-group{
+  border: 2px solid var(--black);    
+  padding: 0rem;
+  font-size: 1rem;
+  appearance: none;
+  border-radius: 0;
+  line-height: 1.4;
+  color: var(--black);
+  width: 100%;
+  height: 3.25rem;
+  font-family: var(--fontFamily);
+}
 
+.undp-search .ant-input-affix-wrapper{
+  border: 0 !important;
+  padding: 11px 12px !important;
+}
+
+.undp-search .ant-input-group-addon{
+  background-color: var(--blue-300);
+  border-radius: 0 !important;
+}
+
+.undp-search .ant-input-group-addon > button{
+  background-color: var(--blue-300);
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: var(--white) !important;
+}
 
 .undp-text-area{
   border: 2px solid var(--black);    
