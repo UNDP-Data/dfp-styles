@@ -1220,7 +1220,7 @@ undp-no-overflow{
   font-family: var(--fontFamily);
 }
 
-.undp-search .ant-input-affix-wrapper{
+.undp-search input.ant-input{
   border: 0 !important;
   padding: 11px 12px !important;
 }
@@ -1231,7 +1231,7 @@ undp-no-overflow{
 }
 
 .undp-search .ant-input-group-addon > button{
-  background-color: var(--blue-300);
+  background-color: var(--blue-600);
   border: 0 !important;
   border-radius: 0 !important;
   color: var(--white) !important;
