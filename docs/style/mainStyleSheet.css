@@ -1067,7 +1067,7 @@ a.undp-style:focus-visible {
   background: url(https://design.undp.org/static/media/icon-check.b332b98d.svg) no-repeat center center;
 }
 
-undp-no-overflow{
+.undp-no-overflow{
   overflow: hidden;
 }
 
