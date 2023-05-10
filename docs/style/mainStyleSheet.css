@@ -1721,7 +1721,7 @@ a.undp-style:focus-visible {
 .undp-select-no-background .ant-select-selector {
   padding: 0 !important;
   border: 0 !important;
-  height: 60px;
+  height: 60px !important;
 }
 
 .undp-select-no-background .ant-select-selection-item{
