@@ -1704,33 +1704,6 @@ a.undp-style:focus-visible {
   padding: 0 !important;
 }
 
-.undp-select-no-background:after {
-  transform: translateY(-50%) !important;
-  transition: all 200ms ease-in-out !important;
-  background: url(https://design.undp.org/static/media/chevron-down.16c97a3f.svg) no-repeat center center !important;
-  content: "" !important;
-  float: right !important;
-  height: 13px !important;
-  position: absolute !important;
-  pointer-events: none !important;
-  right: 14px !important;
-  top: 50% !important;
-  width: 20px !important;
-}
-
-.undp-select-no-background .ant-select-selector {
-  padding: 0 !important;
-  border: 0 !important;
-  height: 60px !important;
-}
-
-.undp-select-no-background .ant-select-selection-item{
-  font-size: 2.5rem !important;
-  font-weight: bold;
-  padding-right: 3rem !important;
-  line-height: 1.5 !important;
-}
-
 .undp-select-no-background.ant-select-single .ant-select-selector:after, .undp-select-no-background.ant-select-single .ant-select-selector .ant-select-selection-item:after, .undp-select-no-background.ant-select-single .ant-select-selector .ant-select-selection-placeholder:after{
   display: none !important;
 }
@@ -2607,4 +2580,31 @@ a.undp-style:focus-visible {
 .undp-tab-radio.selected {
   background-color: var(--blue-600);
   color: var(--white);
+}
+
+.undp-select-no-background:after {
+  transform: translateY(-50%) !important;
+  transition: all 200ms ease-in-out !important;
+  background: url(https://design.undp.org/static/media/chevron-down.16c97a3f.svg) no-repeat center center !important;
+  content: "" !important;
+  float: right !important;
+  height: 13px !important;
+  position: absolute !important;
+  pointer-events: none !important;
+  right: 14px !important;
+  top: 50% !important;
+  width: 20px !important;
+}
+
+.undp-select-no-background .ant-select-selector {
+  padding: 0 !important;
+  border: 0 !important;
+  height: 60px !important;
+}
+
+.undp-select-no-background .ant-select-selection-item{
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  padding-right: 3rem !important;
+  line-height: 1.5 !important;
 }
