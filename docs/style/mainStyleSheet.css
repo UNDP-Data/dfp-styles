@@ -2551,3 +2551,18 @@ a.undp-style:focus-visible {
 .mobile-nav-show {
   display: block;
 }
+
+.undp-tab-radio {
+  background-color: var(--gray-100);
+  border-radius: 5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--blue-600);
+  color: var(--black);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.undp-tab-radio.selected {
+  background-color: var(--blue-600);
+  color: var(--white);
+}
