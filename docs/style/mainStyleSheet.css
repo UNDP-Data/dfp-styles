@@ -1714,18 +1714,21 @@ a.undp-style:focus-visible {
   position: absolute !important;
   pointer-events: none !important;
   right: 14px !important;
-  top: 36% !important;
+  top: 50% !important;
   width: 20px !important;
 }
 
 .undp-select-no-background .ant-select-selector {
   padding: 0 !important;
+  border: 0 !important;
+  height: 60px;
 }
 
 .undp-select-no-background .ant-select-selection-item{
   font-size: 2.5rem !important;
   font-weight: bold;
   padding-right: 3rem !important;
+  line-height: 1.5 !important;
 }
 
 .undp-select-no-background.ant-select-single .ant-select-selector:after, .undp-select-no-background.ant-select-single .ant-select-selector .ant-select-selection-item:after, .undp-select-no-background.ant-select-single .ant-select-selector .ant-select-selection-placeholder:after{
