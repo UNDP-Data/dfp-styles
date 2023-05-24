@@ -2206,7 +2206,7 @@ a.undp-style:focus-visible {
 .undp-section {
   padding: 0rem 1rem;
   margin: 0 auto;
-  width: 100%;
+  width: calc(100% - 2rem);
   display: flex;
   gap: 2rem;
 }
