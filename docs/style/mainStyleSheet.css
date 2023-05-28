@@ -1133,19 +1133,19 @@ a.undp-style:focus-visible {
   font-family: var(--fontFamily);
 }
 
-.undp-input .ant-input-status-warning {
+.undp-input.ant-input-status-warning {
   border: 2px solid var(--dark-yellow) !important; 
 }
 
-.undp-select .ant-select-status-warning {
+.undp-select.ant-select-status-warning {
   border: 2px solid var(--dark-yellow) !important; 
 }
 
-.undp-input .ant-input-status-error {
+.undp-input.ant-input-status-error {
   border: 2px solid var(--dark-red) !important; 
 }
 
-.undp-select .ant-select-status-error {
+.undp-select.ant-select-status-error {
   border: 2px solid var(--dark-red) !important; 
 }
 
