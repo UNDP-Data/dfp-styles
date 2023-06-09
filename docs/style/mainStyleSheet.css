@@ -2193,10 +2193,14 @@ a.undp-style:focus-visible {
 }
 
 .undp-hero-image {
-  padding: 7rem;
+  padding: 2rem;
   margin: 0 auto;
-  width: calc(100% - 14.5rem);
+  width: calc(100% - 4.5rem);
   color: var(--white);
+}
+
+.undp-hero-image>div {
+  max-width: 100rem;
 }
 
 .undp-hero-image h1 {
