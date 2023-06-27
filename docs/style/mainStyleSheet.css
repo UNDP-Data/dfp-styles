@@ -980,7 +980,7 @@ a.undp-style:focus-visible {
 
 .undp-button.button-secondary.button-arrow:after {
   transition: .2s ease;
-  background: url(https://design.undp.org/static/media/chevron-right-black.f618eac3.svg) no-repeat left center;
+  background: url(https://design.undp.org/static/media/chevron-right-white.c14d1d86.svg) no-repeat left center;
   color: var(--dark-red);
   height: 20px;
   margin-left: 0.75rem;
@@ -1016,7 +1016,7 @@ a.undp-style:focus-visible {
 
 .undp-button.button-tertiary.button-arrow:after {
   transition: .2s ease;
-  background: url(https://design.undp.org/static/media/chevron-right-black.f618eac3.svg) no-repeat left center;
+  background: url(https://design.undp.org/icons/chevron-right.svg) no-repeat left center;
   height: 20px;
   margin-left: 0.75rem;
   content: "";
@@ -1034,7 +1034,7 @@ a.undp-style:focus-visible {
 
 .undp-button.button-tertiary.disabled.button-arrow:after {
   transition: .2s ease;
-  background: url(https://design.undp.org/static/media/chevron-right-black.f618eac3.svg) no-repeat left center;
+  background: url(https://design.undp.org/icons/chevron-right.svg) no-repeat left center;
   height: 20px;
   margin-left: 0.75rem;
   content: "";
