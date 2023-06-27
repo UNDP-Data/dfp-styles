@@ -2367,11 +2367,6 @@ a.undp-style:focus-visible {
   text-decoration: none !important;
 }
 
-.undp-country-header .undp-site-title .logo-sub-head:hover {
-  border-bottom: 1px solid var(--blue-600);
-  color: var(--blue-600);
-}
-
 .undp-nav-div {
   display: flex;
   align-items: center;
