@@ -1843,6 +1843,10 @@ a.undp-style:focus-visible {
   transform: translateX(-50%) translateY(-85%) scale(0.75) !important;
 }
 
+.undp-slider-tooltip-content{
+  margin-top: -0.5rem !important;
+}
+
 .undp-slider .ant-slider-mark-text {
   font-size: 0.75rem;
   font-family: var(--fontFamily) !important;
