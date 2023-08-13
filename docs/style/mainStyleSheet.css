@@ -2078,10 +2078,11 @@ a.undp-style:focus-visible {
   border-bottom: 2px solid var(--gray-200);
 }
 
-.undp-tabs .ant-tabs-nav {
-  padding: 0 3rem;
+.undp-tabs.subhead-tabs .ant-tabs-nav {
+  padding: 0 2rem;
   margin: 0;
-  border-bottom: 2px solid var(--gray-200);
+  background-color: var(--gray-300);
+  border-bottom: 2px solid var(--gray-400);
 }
 
 .undp-tabs .ant-tabs-tab {
