@@ -2631,3 +2631,7 @@ a.undp-style:focus-visible {
   padding-right: 3rem !important;
   line-height: 1.5 !important;
 }
+
+li.undp-list-item {
+  font-family: var(--fontFamily) !important;
+}
