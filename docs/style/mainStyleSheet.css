@@ -2087,8 +2087,8 @@ a.undp-style:focus-visible {
 
 .undp-tabs .ant-tabs-tab {
   font-family: var(--fontFamily);
-  font-size: 1rem;
-  color: var(--black);
+  font-size: 1rem !important;
+  color: var(--black) !important;
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
