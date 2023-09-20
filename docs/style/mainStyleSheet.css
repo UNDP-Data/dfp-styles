@@ -1127,6 +1127,28 @@ a.undp-style:focus-visible {
   border-color: var(--gray-400) !important;
 }
 
+.undp-auto-complete{
+  border: 2px solid var(--black);    
+  padding: 0.625rem;
+  font-size: 1rem;
+  appearance: none;
+  border-radius: 0;
+  line-height: 1.4;
+  color: var(--black);
+  width: 100%;
+  height: 3.25rem;
+  font-family: var(--fontFamily);
+  margin-top: 0 !important;
+}
+
+.undp--auto-complete.ant-input-status-error {
+  border: 2px solid var(--dark-red) !important; 
+}
+
+.undp--auto-complete.ant-select-status-warning {
+  border: 2px solid var(--dark-yellow) !important; 
+}
+
 .undp-input{
   border: 2px solid var(--black);    
   padding: 0.625rem;
