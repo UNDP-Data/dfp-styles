@@ -1150,7 +1150,6 @@ a.undp-style:focus-visible {
   font-family: var(--fontFamily);
   font-size: 1rem;
   line-height: 1.4;
-
 }
 
 .undp--auto-complete.ant-input-status-error {
