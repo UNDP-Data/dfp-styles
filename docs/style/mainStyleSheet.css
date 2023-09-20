@@ -1141,6 +1141,18 @@ a.undp-style:focus-visible {
   margin-top: 0 !important;
 }
 
+.undp-auto-complete .ant-select-selector{
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.undp-auto-complete .ant-select-selection-search-input {
+  font-family: var(--fontFamily);
+  font-size: 1rem;
+  line-height: 1.4;
+
+}
+
 .undp--auto-complete.ant-input-status-error {
   border: 2px solid var(--dark-red) !important; 
 }
