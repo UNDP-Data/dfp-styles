@@ -2696,7 +2696,7 @@ li.undp-list-item {
 }
 
 .insight-card-text {
-  width: calc(33.33% - 1rem);
+  width: calc(40% - 1rem);
   @media (max-width: 960px) {
     width: 100%;
   }
@@ -2710,7 +2710,7 @@ li.undp-list-item {
 }
 
 .insight-card-graph {
-  width: calc(66.67% - 4rem);
+  width: calc(60% - 5rem);
   display: flex;
   flex-direction: column;
   padding: var(--spacing-06) var(--spacing-07);
