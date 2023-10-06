@@ -2710,10 +2710,10 @@ li.undp-list-item {
 }
 
 .insight-card-graph {
-  width: calc(66.67% - 3rem);
+  width: calc(66.67% - 4rem);
   display: flex;
   flex-direction: column;
-  padding: var(--spacing-05);
+  padding: var(--spacing-06) var(--spacing-07);
   justify-content: space-between;
   gap: var(--spacing-05);
   background-color: var(--white);
