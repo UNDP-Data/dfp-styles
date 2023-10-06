@@ -888,7 +888,7 @@ a.undp-style:focus-visible {
 .undp-scrollbar::-webkit-scrollbar-track {
   background: #000;
   background-clip: padding-box;
-  border: 2px solid #fff;
+  border: 2px solid rgba(255,255,255,0);
 }
 .undp-scrollbar::-webkit-scrollbar-corner {
   display: none;
@@ -2683,4 +2683,44 @@ a.undp-style:focus-visible {
 
 li.undp-list-item {
   font-family: var(--fontFamily) !important;
+}
+
+.insight-card {
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0;
+  scroll-padding-left: 0;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.insight-card-text {
+  width: calc(33.33% - 1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+}
+
+.category-tag{
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;  
+}
+
+.insight-card-graph {
+  width: calc(66.67% - 3rem);
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-05);
+  justify-content: space-between;
+  gap: var(--spacing-05);
+  background-color: var(--white);
+  @media (max-width: 960px) {
+    width: 100%;
+  }  
 }

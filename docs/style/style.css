@@ -604,7 +604,7 @@ a.undp-style:focus-visible {
 .undp-scrollbar::-webkit-scrollbar-track {
   background: #000;
   background-clip: padding-box;
-  border: 2px solid #fff;
+  border: 2px solid rgba(255,255,225,0);
 }
 .undp-scrollbar::-webkit-scrollbar-corner {
   display: none;
