@@ -2686,12 +2686,13 @@ li.undp-list-item {
 }
 
 .insight-card {
-  scroll-snap-type: x mandatory;
-  scroll-padding: 0;
-  scroll-padding-left: 0;
+  padding: var(--spacing-07) 0;
+  min-width: 100%;
+  scroll-snap-align: start;
   display: flex;
-  overflow-x: auto;
-  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: var(--spacing-07);
+  padding-bottom: var(--spacing-07);
 }
 
 .insight-card-text {
