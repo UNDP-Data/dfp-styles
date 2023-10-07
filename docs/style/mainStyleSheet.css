@@ -2122,11 +2122,24 @@ a.undp-style:focus-visible {
   border-bottom: 2px solid var(--gray-200);
 }
 
+.undp-tabs.subhead-tabs {
+  background-color: var(--gray-300);
+}
+
 .undp-tabs.subhead-tabs .ant-tabs-nav {
   padding: 0 2rem;
-  margin: 0;
+  margin: 0 auto;
   background-color: var(--gray-300);
   border-bottom: 2px solid var(--gray-400);
+  max-width: 1980px;
+  width: 100%;
+  @media (min-width: 1980px) {
+    padding: 0
+  }
+}
+
+.undp-tabs.subhead-tabs .ant-tabs-content-holder {
+  background-color: var(--white);
 }
 
 .undp-tabs .ant-tabs-tab {
