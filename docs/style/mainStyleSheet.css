@@ -2741,3 +2741,19 @@ li.undp-list-item {
     width: 100%;
   }  
 }
+
+h1.banner-heading.undp-typography{
+  font-family: var(--fontFamilyHeadings);
+  font-weight: 1.8rem;
+}
+@media (min-width: 48em) {
+  h1.banner-heading.undp-typography {
+      font-size: 3.125rem;
+  }
+}
+
+@media (min-width: 64em) {
+  h1.banner-heading.undp-typography {
+      font-size: 4.25rem;
+  }
+}
