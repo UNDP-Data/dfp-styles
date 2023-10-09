@@ -2744,7 +2744,7 @@ li.undp-list-item {
 
 h1.banner-heading.undp-typography{
   font-family: var(--fontFamilyHeadings);
-  font-weight: 1.8rem;
+  font-size: 1.8rem;
 }
 @media (min-width: 48em) {
   h1.banner-heading.undp-typography {
