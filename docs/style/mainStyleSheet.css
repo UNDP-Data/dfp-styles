@@ -2130,7 +2130,7 @@ a.undp-style:focus-visible {
   padding: 0 var(--spacing-06);
   margin: 0 auto;
   background-color: var(--gray-300);
-  border-bottom: 2px solid var(--gray-400);
+  border-bottom: 2px solid var(--gray-300);
   max-width: 1980px;
   width: 100%;
 }
