@@ -101,6 +101,7 @@ p.undp-typography.large-font{
 caption.undp-typography, h1.undp-typography, h2.undp-typography, h3.undp-typography, h4.undp-typography, h5.undp-typography, h6.undp-typography {
   margin: 0 0 0.75rem;
   padding: 0;
+  font-family: var(--fontFamily) !important;
 }
 @media(min-width:48em) {
   caption.undp-typography, h1.undp-typography, h2.undp-typography, h3.undp-typography, h4.undp-typography, h5.undp-typography, h6.undp-typography.undp-typography.undp-typography.undp-typography.undp-typography {
@@ -1405,6 +1406,7 @@ a.undp-style:focus-visible {
   border-radius: 0 !important;
   border: 2px solid var(--gray-600) !important;
   color: var(--gray-600);
+  font-family: var(--fontFamily) !important;
 }
 
 
@@ -1447,6 +1449,7 @@ a.undp-style:focus-visible {
   padding: 0 7px;
   font-size: 1rem !important;
   color: var(--black);
+  font-family: var(--fontFamily) !important;
 }
 
 .undp-radio .ant-radio-disabled .ant-radio-input{
@@ -2663,6 +2666,7 @@ a.undp-style:focus-visible {
   color: var(--black);
   font-size: 1rem;
   cursor: pointer;
+  font-family: var(--fontFamily) !important;
 }
 
 .undp-tab-radio.selected {
