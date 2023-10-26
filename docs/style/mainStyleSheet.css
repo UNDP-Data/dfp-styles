@@ -1526,7 +1526,7 @@ a.undp-style:focus-visible {
 }
 
 .undp-select:hover {
-  border: 2px solid var(--blue-700);
+  border: 2px solid var(--black);
 }
 
 .undp-select.ant-select-focused {
@@ -2766,6 +2766,12 @@ h1.banner-heading.undp-typography{
   align-items: center;
 }
 
+.undp-breadcrumb-light {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .undp-breadcrumb a {
   background: none;
   text-decoration: none;
@@ -2808,6 +2814,7 @@ h1.banner-heading.undp-typography{
   letter-spacing: .03em;
   text-transform: uppercase;
   transition: opacity .2s ease;
+  text-decoration: none !important;
 }
 
 .undp-breadcrumb-light a:hover {
@@ -2816,7 +2823,7 @@ h1.banner-heading.undp-typography{
 
 .undp-breadcrumb-light .divider {
   background: none;
-  color: var(--dark-red);
+  color: var(--white);
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: .03em;
