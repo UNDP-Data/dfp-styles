@@ -2767,6 +2767,7 @@ h1.banner-heading.undp-typography{
 
 .undp-breadcrumb a {
   background: none;
+  text-decoration: none;
   color: var(--dark-red);
   font-size: .75rem;
   font-weight: 600;
@@ -2775,7 +2776,7 @@ h1.banner-heading.undp-typography{
   transition: opacity .2s ease;
 }
 
-.undp-breadcrumb .divider {
+.undp-breadcrumb a::after {
   background: none;
   color: var(--dark-red);
   font-size: .75rem;
