@@ -2758,3 +2758,76 @@ h1.banner-heading.undp-typography{
       font-size: 4.25rem;
   }
 }
+
+.undp-breadcrumb {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.undp-breadcrumb a {
+  background: none;
+  color: var(--dark-red);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  transition: opacity .2s ease;
+}
+
+.undp-breadcrumb .divider {
+  background: none;
+  color: var(--dark-red);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  content: '/';
+}
+
+.undp-breadcrumb a:hover {
+  color: var(--red);
+}
+
+.undp-breadcrumb span {
+  background: none;
+  color: var(--gray-700);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+
+.undp-breadcrumb-light a {
+  background: none;
+  color: var(--white);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  transition: opacity .2s ease;
+}
+
+.undp-breadcrumb-light a:hover {
+  color: var(--gray-200);
+}
+
+.undp-breadcrumb-light .divider {
+  background: none;
+  color: var(--dark-red);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  content: '/';
+}
+
+.undp-breadcrumb-light span {
+  background: none;
+  color: var(--white);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
