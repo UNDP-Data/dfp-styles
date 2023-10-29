@@ -1550,7 +1550,7 @@ a.undp-style:focus-visible {
 }
 
 .undp-select.ant-select-single .ant-select-selector{
-  padding-top: 0rem !important;
+  padding-top: 0.5rem !important;
 }
 
 .undp-select.ant-select-single.ant-select-show-search .ant-select-selector{
