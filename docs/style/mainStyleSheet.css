@@ -115,6 +115,7 @@ h1.undp-typography {
   letter-spacing: .06rem;
   line-height: 1.08;
   text-transform: uppercase;
+  font-family: var(--fontFamilyHeadings) !important;
 }
 
 h2.undp-typography {
@@ -125,7 +126,7 @@ h2.undp-typography {
 
 h2.undp-typography.page-title {
   text-transform: uppercase;
-  font-family: var(--fontFamilyHeadings);
+  font-family: var(--fontFamilyHeadings) !important;
 }
 
 
