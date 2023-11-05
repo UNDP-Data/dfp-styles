@@ -1178,6 +1178,27 @@ a.undp-style:focus-visible {
   margin-top: 0 !important;
 }
 
+
+.undp-picker{
+  border: 2px solid var(--black);    
+  padding: 0.625rem;
+  font-size: 1rem;
+  appearance: none;
+  border-radius: 0;
+  line-height: 1.4;
+  color: var(--black);
+  width: 100%;
+  height: 3.25rem;
+  font-family: var(--fontFamily);
+  margin-top: 0 !important;
+}
+
+.undp-picker .ant-picker-input input{
+  font-family: var(--fontFamily) !important;
+  font-size: 1rem !important;
+
+}
+
 .undp-input.ant-input-status-warning {
   border: 2px solid var(--dark-yellow) !important; 
 }
