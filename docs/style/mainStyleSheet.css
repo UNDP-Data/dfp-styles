@@ -1193,6 +1193,10 @@ a.undp-style:focus-visible {
   margin-top: 0 !important;
 }
 
+.undp-picker:hover{
+  border: 2px solid var(--black) !important;
+}
+
 .undp-picker .ant-picker-input input{
   font-family: var(--fontFamily) !important;
   font-size: 1rem !important;
