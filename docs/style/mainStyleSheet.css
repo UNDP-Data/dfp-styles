@@ -1615,6 +1615,8 @@ a.undp-style:focus-visible {
   font-weight: 600;
   text-transform: uppercase;
   color: black;
+  font-family: var(--fontFamily);
+  height: inherit !important;
   padding: 0 3rem 0 0 !important;
 }
 
