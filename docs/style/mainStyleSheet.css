@@ -1704,9 +1704,17 @@ a.undp-style:focus-visible {
   text-transform: uppercase;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: var(--gray-300);
-  color: var(--gray-700);
+  background-color: var(--gray-600);
+  color: var(--gray-100);
   font-family: var(--fontFamily);
+}
+
+.maplibregl-control-container {
+  display: none;
+}
+
+.maplibre-show-control .maplibregl-control-container {
+  display: block !important;
 }
 
 .clearIcon {
