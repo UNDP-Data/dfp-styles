@@ -1678,8 +1678,7 @@ a.undp-style:focus-visible {
 }
 
 .undp-select.ant-select-multiple .ant-select-selector .ant-select-selection-overflow .ant-select-selection-item {
-  background-color: var(--gray-600) !important;
-  color: var(--white) !important;
+  background-color: var(--gray-300);
 }
 
 .undp-select.ant-select-multiple .ant-select-selector .ant-select-selection-overflow .ant-select-selection-item .ant-select-selection-item-remove .anticon-close svg {
