@@ -1131,9 +1131,11 @@ a.undp-style:focus-visible {
   border-color: var(--gray-400) !important;
 }
 
+
+
 .undp-auto-complete{
   border: 2px solid var(--black);    
-  padding: 0.625rem 0;
+  padding: 0.625rem;
   font-size: 1rem;
   appearance: none;
   border-radius: 0;
@@ -1143,24 +1145,29 @@ a.undp-style:focus-visible {
   height: 3.25rem;
   font-family: var(--fontFamily);
   margin-top: 0 !important;
+  background-color: var(--white) !important;
 }
 
 .undp-auto-complete .ant-select-selector{
   padding: 0 !important;
   border: 0 !important;
+  background-color: transparent !important;
 }
 
-.undp-auto-complete .ant-select-selection-search-input {
-  font-family: var(--fontFamily);
-  font-size: 1rem;
-  line-height: 1.4;
+.undp-auto-complete .ant-select-selection-search{
+  inset-inline-start: 0 !important;
+  inset-inline-end: 0 !important;
 }
 
-.undp--auto-complete.ant-input-status-error {
+.undp-auto-complete .ant-select-selection-search-input{
+  font-size: 1rem !important;
+}
+
+.undp-auto-complete.ant-input-status-error {
   border: 2px solid var(--dark-red) !important; 
 }
 
-.undp--auto-complete.ant-select-status-warning {
+.undp-auto-complete.ant-select-status-warning {
   border: 2px solid var(--dark-yellow) !important; 
 }
 
@@ -1177,36 +1184,6 @@ a.undp-style:focus-visible {
   font-family: var(--fontFamily);
   margin-top: 0 !important;
   background-image: var(--white) !important;
-}
-
-.undp-autocomplete{
-  border: 2px solid var(--black);    
-  padding: 0.625rem;
-  font-size: 1rem;
-  appearance: none;
-  border-radius: 0;
-  line-height: 1.4;
-  color: var(--black);
-  width: 100%;
-  height: 3.25rem;
-  font-family: var(--fontFamily);
-  margin-top: 0 !important;
-  background-image: var(--white) !important;
-}
-
-.undp-autocomplete .ant-select-selector{
-  padding: 0 !important;
-  border: 0 !important;
-  background-color: transparent !important;
-}
-
-.undp-autocomplete .ant-select-selection-search{
-  inset-inline-start: 0 !important;
-  inset-inline-end: 0 !important;
-}
-
-.undp-autocomplete .ant-select-selection-search-input{
-  font-size: 1rem !important;
 }
 
 .undp-picker{
