@@ -2908,3 +2908,18 @@ h1.banner-heading.undp-typography{
   letter-spacing: .03em;
   text-transform: uppercase;
 }
+
+.undp-collapse-item{
+  border: 0 !important;
+  background-color: var(--gray-200) !important;
+  margin-bottom: 1rem !important;
+}
+
+.undp-collapse-item .ant-collapse-header{
+  align-items: center !important;
+}
+
+.undp-collapse-item .ant-collapse-header-text{
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
