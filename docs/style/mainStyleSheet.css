@@ -2886,17 +2886,17 @@ h1.banner-heading.undp-typography{
   text-transform: uppercase;
 }
 
-.undp-accordion{
+.undp-accordion .ant-collapse-item{
   border: 0 !important;
   background-color: var(--gray-200) !important;
   margin-bottom: 1rem !important;
 }
 
-.undp-accordion .ant-collapse-header{
+.undp-accordion .ant-collapse-item .ant-collapse-header{
   align-items: center !important;
 }
 
-.undp-accordion .ant-collapse-header-text{
+.undp-accordion .ant-collapse-item .ant-collapse-header-text{
   font-size: 1.5rem !important;
   font-weight: 600;
 }
