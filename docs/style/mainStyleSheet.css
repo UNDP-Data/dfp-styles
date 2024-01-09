@@ -2905,3 +2905,78 @@ h1.banner-heading.undp-typography{
   font-size: 1.5rem !important;
   font-weight: 600;
 }
+
+.undp-message.ant-message-notice-success .ant-message-notice-content{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 600;
+  border: 1px solid var(--dark-green);
+  border-radius: 0;
+  background-color: var(--light-green);
+  box-shadow: 0 0 0 !important;
+}
+
+.undp-message.ant-message-notice-success .ant-message-notice-content .ant-message-success{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.undp-message.ant-message-notice-error .ant-message-notice-content{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 600;
+  border: 1px solid var(--dark-red);
+  border-radius: 0;
+  background-color: var(--light-red);
+  box-shadow: 0 0 0 !important;
+}
+
+.undp-message.ant-message-notice-error .ant-message-notice-content .ant-message-error{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.undp-message.ant-message-notice-warning .ant-message-notice-content{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 600;
+  border: 1px solid var(--dark-yellow);
+  border-radius: 0;
+  background-color: var(--light-yellow);
+  box-shadow: 0 0 0 !important;
+}
+
+.undp-message.ant-message-notice-warning .ant-message-notice-content .ant-message-warning{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.undp-message.ant-message-notice-info .ant-message-notice-content{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 600;
+  border: 1px solid var(--gray-500);
+  border-radius: 0;
+  background-color: var(--gray-300);
+  box-shadow: 0 0 0 !important;
+}
+
+.undp-message.ant-message-notice-info .ant-message-notice-content .ant-message-info{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.undp-message.ant-message-notice-loading .ant-message-notice-content{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 600;
+  border: 1px solid var(--gray-500);
+  border-radius: 0;
+  background-color: var(--gray-300);
+  box-shadow: 0 0 0 !important;
+}
+
+.undp-message.ant-message-notice-loading .ant-message-notice-content .ant-message-loading{
+  display: flex !important;
+  align-items: center !important;
+}
