@@ -1343,6 +1343,11 @@ a.undp-style:focus-visible {
   max-width: 64rem;
 }
 
+.undp-modal.undp-modal-full-width.ant-modal{
+  width: 90% !important;
+  max-width: none;
+}
+
 .undp-modal .ant-modal-content {
   padding: 4rem;
   box-shadow: none;
