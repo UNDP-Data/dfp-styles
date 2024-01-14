@@ -990,10 +990,6 @@ a.undp-style:focus-visible {
   padding-top: 0.5rem !important;
 }
 
-.undp-select.not-to-be-embedded.ant-select-single .ant-select-selector{
-  padding-top: 0 !important;
-}
-
 .undp-select.ant-select-single.ant-select-show-search .ant-select-selector{
   padding-top: 0.5rem !important;
 }
@@ -1019,10 +1015,6 @@ a.undp-style:focus-visible {
 
 .undp-select .ant-select-selection-search{
   margin-inline-start: 0;
-}
-
-.undp-select.not-to-be-embedded.ant-select-single .ant-select-selection-item{
-  padding-top: 0.5 !important;
 }
 
 .undp-select:after {
@@ -1136,6 +1128,14 @@ a.undp-style:focus-visible {
   background-color: var(--gray-600);
   color: var(--gray-100);
   font-family: var(--fontFamily);
+}
+
+.undp-select.not-to-be-embedded.ant-select-single .ant-select-selector{
+  padding-top: 0 !important;
+}
+
+.undp-select.not-to-be-embedded.ant-select-single .ant-select-selection-item{
+  padding-top: 0.5 !important;
 }
 
 .maplibregl-control-container {
