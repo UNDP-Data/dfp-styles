@@ -1972,6 +1972,7 @@ a.undp-style:focus-visible {
   align-items: center;
   border-radius: 4px;
   width: fit-content;
+  cursor: pointer;
 }
 .undp-button-dropdown.no-background {
   background-color: transparent;
@@ -1980,6 +1981,10 @@ a.undp-style:focus-visible {
 .undp-button-dropdown:hover {
   background-color: var(--gray-300);
   color: var(--dark-red) !important;
+}
+
+.undp-button-dropdown.no-background:hover {
+  background-color: transparent;
 }
 
 .undp-button-dropdown:after {
