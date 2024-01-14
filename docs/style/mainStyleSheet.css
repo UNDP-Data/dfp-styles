@@ -1971,6 +1971,10 @@ a.undp-style:focus-visible {
   display: flex;
   align-items: center;
   border-radius: 4px;
+  width: fit-content;
+}
+.undp-button-dropdown.no-background {
+  background-color: transparent;
 }
 
 .undp-button-dropdown:hover {
