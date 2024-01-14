@@ -918,13 +918,13 @@ a.undp-style:focus-visible {
 
 
 .undp-segmented.ant-segmented {
-  font-family: var(--fontFamily);
+  font-family: var(--fontFamily) !important;
   background-color: transparent;
   font-size: 1.125rem;
 }
 
 .undp-segmented-small.ant-segmented {
-  font-family: var(--fontFamily);
+  font-family: var(--fontFamily) !important;
   background-color: var(--gray-300);
   border-radius: 2px;
   font-size: 1rem;
@@ -1709,6 +1709,7 @@ a.undp-style:focus-visible {
   display: inline-flex;
   font-size: 1rem !important;
   padding: 0.25rem 1rem;
+  font-family: var(--fontFamily) !important;
 }
 
 .undp-chip-small {
@@ -2333,6 +2334,12 @@ h1.banner-heading.undp-typography{
   background-color: var(--gray-200) !important;
   margin-bottom: 1rem !important;
 }
+.undp-accordion.no-background .ant-collapse-item{
+  border: 0 !important;
+  background-color: var(--white) !important;
+  border-bottom: 1px solid var(--gray-500);
+  margin-bottom: 1rem !important;
+}
 
 .undp-accordion .ant-collapse-item .ant-collapse-header{
   align-items: center !important;
@@ -2341,6 +2348,12 @@ h1.banner-heading.undp-typography{
 .undp-accordion .ant-collapse-item .ant-collapse-header-text{
   font-size: 1.5rem !important;
   font-weight: 600;
+}
+
+.undp-accordion.no-background .ant-collapse-item .ant-collapse-header-text{
+  font-size: 1.563rem !important;
+  font-weight: normal !important;
+  text-transform: uppercase !important;
 }
 
 .undp-message.ant-message-notice-success .ant-message-notice-content{
