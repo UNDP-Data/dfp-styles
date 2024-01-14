@@ -2074,7 +2074,7 @@ a.undp-style:focus-visible {
 
 @media (max-width: 85rem) {
   .undp-nav-div{
-    display: none;
+    display: none !important;
   }
   .undp-menu-hamburger {
     display: block;
