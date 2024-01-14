@@ -1154,6 +1154,12 @@ a.undp-style:focus-visible {
   transform: translate(-50%,-50%);
 }
 
+.clearIcon-for-input {
+  background: url(https://design.undp.org/icons/times-circle.svg) no-repeat center center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .undp-language-select {
   width: auto;
   height: auto;
