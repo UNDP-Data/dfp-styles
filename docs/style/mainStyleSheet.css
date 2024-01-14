@@ -1135,7 +1135,7 @@ a.undp-style:focus-visible {
 }
 
 .undp-select.not-to-be-embedded.ant-select-single .ant-select-selection-item{
-  padding-top: 0.5 !important;
+  padding-top: 0.5rem !important;
 }
 
 .maplibregl-control-container {
