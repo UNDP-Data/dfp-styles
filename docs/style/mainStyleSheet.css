@@ -959,6 +959,7 @@ a.undp-style:focus-visible {
   width: 100%;
   border: 2px solid var(--black);
   height: 3.25rem;
+  font-family: var(--fontFamily) !important;
 }
 
 .undp-select:hover {
@@ -989,6 +990,10 @@ a.undp-style:focus-visible {
   padding-top: 0.5rem !important;
 }
 
+.undp-select.not-to-be-embedded.ant-select-single .ant-select-selector{
+  padding-top: 0 !important;
+}
+
 .undp-select.ant-select-single.ant-select-show-search .ant-select-selector{
   padding-top: 0.5rem !important;
 }
@@ -996,6 +1001,16 @@ a.undp-style:focus-visible {
 .undp-select .ant-select-selection-placeholder {
   font-size: 1rem !important;
   padding-left: 0 !important;
+  font-family: var(--fontFamily) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  color: var(--gray-500) !important;
+}
+
+.undp-select .ant-select-selection-placeholder {
+  font-size: 1rem !important;
+  padding-left: 0 !important;
+  font-family: var(--fontFamily) !important;
   font-weight: 600 !important;
   text-transform: none !important;
   color: var(--gray-500) !important;
@@ -1004,6 +1019,10 @@ a.undp-style:focus-visible {
 
 .undp-select .ant-select-selection-search{
   margin-inline-start: 0;
+}
+
+.undp-select.not-to-be-embedded.ant-select-single .ant-select-selection-item{
+  padding-top: 0.5 !important;
 }
 
 .undp-select:after {
@@ -2951,16 +2970,46 @@ h1.banner-heading.undp-typography{
   gap: var(--spacing-05);
 }
 
+/* Flex Directions */
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reversed {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reversed {
+  flex-direction: column-reverse;
+}
+
+/* Flex wrap settings */
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+/* Flex vertical and horizontal alignment */
+
 .flex-vert-align-center {  
   align-items: center;
 }
 
 .flex-vert-align-bottom {  
   align-items: flex-end;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .flex-space-between {
@@ -2971,12 +3020,14 @@ h1.banner-heading.undp-typography{
   justify-content: center;
 }
 
-.no-shrink {
-  flex-shrink: 0;
-}
+/* Grow and Shrink */
 
 .grow {
   flex-grow: 1;
+}
+
+.no-shrink {
+  flex-shrink: 0;
 }
 
 /* Gap for Flex Boxes */
