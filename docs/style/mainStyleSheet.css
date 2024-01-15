@@ -850,13 +850,7 @@ a.undp-style:focus-visible {
 }
 
 .undp-button-radio.ant-radio-group .ant-radio-button-wrapper:last-of-type {
-  border-radius: 0 !important;
-  border-left: 2px solid var(--gray-600) !important;
-  border-top: 2px solid var(--gray-600) !important;
-  border-bottom: 2px solid var(--gray-600) !important;  
   border-right: 2px solid var(--gray-600) !important; 
-  color: var(--gray-600);
-  font-family: var(--fontFamily) !important;
 }
 
 
