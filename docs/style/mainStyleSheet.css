@@ -3138,31 +3138,31 @@ h1.banner-heading.undp-typography{
 
 /* Typography Classes */
 
-.align-right {
+.undp-container .align-right {
   text-align: right !important;
 }
 
-.align-center {
+.undp-container .text-align-center {
   text-align: center !important;
 }
 
-.bold {
+.undp-container .bold {
   font-weight: bold !important;
 }
 
-.italics {
+.undp-container .italics {
   font-style: italic !important;
 }
 
-.small-font {
+.undp-container .small-font {
   font-size: 0.875rem !important;
 }
 
-.large-font{
+.undp-container .large-font{
   font-size: 1.25rem !important;
 }
 
-.label {
+.undp-container .label {
   margin-bottom: var(--spacing-03);
   margin-top: 0;
   font-size: 0.875rem !important;
