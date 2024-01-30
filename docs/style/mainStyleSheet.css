@@ -2347,7 +2347,7 @@ h1.banner-heading.undp-typography{
   border: 0 !important;
   background-color: transparent !important;
   border-bottom: 1px solid var(--gray-500) !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0 !important;
 }
 
 .undp-accordion .ant-collapse-item .ant-collapse-header{
