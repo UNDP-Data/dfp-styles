@@ -86,6 +86,7 @@ p.undp-typography {
   margin-top: 0;
   font-size: 1rem;
   line-height: 1.4;
+  font-family: var(--fontFamily) !important;
 }
 
 @media (min-width: 48em) {
