@@ -1003,6 +1003,10 @@ a.undp-style:focus-visible {
   padding-top: 0rem !important;
 }
 
+.undp-select.ant-select-single.ant-select-show-search .ant-select-selector .ant-select-selection-placeholder {
+  padding-top: 0.5rem !important;
+}
+
 .undp-select.ant-select-single.ant-select-show-search .ant-select-selector .ant-select-selection-item {
   padding-top: 0.5rem !important;
 }
@@ -1015,16 +1019,6 @@ a.undp-style:focus-visible {
   text-transform: none !important;
   color: var(--gray-500) !important;
 }
-
-.undp-select .ant-select-selection-placeholder {
-  font-size: 1rem !important;
-  padding-left: 0 !important;
-  font-family: var(--fontFamily) !important;
-  font-weight: 600 !important;
-  text-transform: none !important;
-  color: var(--gray-500) !important;
-}
-
 
 .undp-select .ant-select-selection-search{
   margin-inline-start: 0;
@@ -1249,8 +1243,6 @@ a.undp-style:focus-visible {
   text-transform: uppercase;
   color: black;
 }
-
-
 
 .undp-select-no-background {
   border: 0 !important;
