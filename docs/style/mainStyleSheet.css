@@ -760,6 +760,10 @@ a.undp-style:focus-visible {
   scroll-behavior: smooth;
 }
 
+.undp-modal.no-bottom-padding .ant-modal-content{
+  padding-bottom: 0 !important;
+}
+
 .undp-modal .ant-modal-content::-webkit-scrollbar {
   height: 5px;
   width: 5px;
