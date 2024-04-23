@@ -3172,3 +3172,12 @@ h1.banner-heading.undp-typography{
   padding: 0.25rem;
   box-shadow: none;
 }
+
+.undp-tooltip .ant-popover-inner{
+  background-color: var(--gray-200);
+  color: var(--grey-700);
+  border-radius: 0;
+  border: 1px solid var(--gray-400);
+  padding: 0.25rem;
+  box-shadow: none;
+}
