@@ -3187,8 +3187,8 @@ h1.banner-heading.undp-typography{
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-finish .ant-steps-item-icon {
-  background-color: var(--blue-300) !important;
-  border-color: var(--blue-300) !important;
+  background-color: var(--blue-100) !important;
+  border-color: var(--blue-100) !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-finish .ant-steps-item-content .ant-steps-item-title {
