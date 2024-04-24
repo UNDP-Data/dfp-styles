@@ -3194,7 +3194,7 @@ h1.banner-heading.undp-typography{
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-finish .ant-steps-item-content .ant-steps-item-title {
   color: var(--gray-700) !important;
   font-family: var(--fontFamily) !important;
-  font-size: 1.25rem !important;
+  font-size: 18px !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-finish .ant-steps-item-content .ant-steps-item-title::after {
@@ -3213,7 +3213,7 @@ h1.banner-heading.undp-typography{
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-active .ant-steps-item-content .ant-steps-item-title {
   color: var(--gray-700) !important;
   font-family: var(--fontFamily) !important;
-  font-size: 1.25rem !important;
+  font-size: 18px !important;
   font-weight: bold;
 }
 
@@ -3223,12 +3223,11 @@ h1.banner-heading.undp-typography{
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-wait .ant-steps-item-icon {
   background-color: var(--gray-300) !important;
-  border-color: var(--gry-300) !important;
+  border-color: var(--gray-300) !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-wait .ant-steps-item-content .ant-steps-item-title {
-  color: var(--gray-500) !important;
+  color: var(--gray-700) !important;
   font-family: var(--fontFamily) !important;
-  font-size: 1.25rem !important;
-  border-color: var(--blue-600) !important;
+  font-size: 18px !important;
 }
