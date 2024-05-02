@@ -3237,5 +3237,11 @@ h1.banner-heading.undp-typography{
   line-height: normal !important;
 }
 .undp-steps .ant-steps-item-content {
-  vertical-align: unset !important;
+  line-height: 0 !important;
+  font-size: 12px !important;
+  height: 26px !important;
+}
+
+.undp-steps .ant-steps-item-icon .ant-steps-icon .anticon.anticon-check.ant-steps-finish-icon {
+  font-size: 12px !important;
 }
