@@ -3195,6 +3195,7 @@ h1.banner-heading.undp-typography{
   color: var(--gray-700) !important;
   font-family: var(--fontFamily) !important;
   font-size: 18px !important;
+  line-height: normal !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-finish .ant-steps-item-content .ant-steps-item-title::after {
@@ -3203,6 +3204,7 @@ h1.banner-heading.undp-typography{
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-active .ant-steps-icon {
   color: var(--white) !important;
+  font-size: 12px !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-active .ant-steps-item-icon {
@@ -3215,10 +3217,12 @@ h1.banner-heading.undp-typography{
   font-family: var(--fontFamily) !important;
   font-size: 18px !important;
   font-weight: bold;
+  line-height: normal !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-wait .ant-steps-icon {
   color: var(--gray-700) !important;
+  font-size: 12px !important;
 }
 
 .undp-steps.ant-steps .ant-steps-item.ant-steps-item-wait .ant-steps-item-icon {
@@ -3230,4 +3234,8 @@ h1.banner-heading.undp-typography{
   color: var(--gray-700) !important;
   font-family: var(--fontFamily) !important;
   font-size: 18px !important;
+  line-height: normal !important;
+}
+.undp-steps .ant-steps-item-content {
+  vertical-align: unset !important;
 }
