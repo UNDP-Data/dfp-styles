@@ -2067,7 +2067,7 @@ a.undp-style:focus-visible {
   z-index: 25;
 }
 
-@media (max-width: 85rem) {
+@media (max-width: 64rem) {
   .undp-nav-div{
     display: none !important;
   }
