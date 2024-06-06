@@ -1153,8 +1153,28 @@ a.undp-style:focus-visible {
   display: none;
 }
 
+.maplibregl-ctrl-scale {
+  font-size: 10px !important;
+  font-family: var(--fontFamily) !important;
+}
+
+.maplibregl-ctrl-attrib-inner {
+  font-size: 10px !important;
+  font-family: var(--fontFamily) !important;
+}
+
+.maplibregl-ctrl-attrib-inner a{
+  font-size: 10px !important;
+  font-family: var(--fontFamily) !important;
+  background-image: none !important;
+}
+
 .maplibre-show-control .maplibregl-control-container {
   display: block !important;
+}
+
+.maplibregl-ctrl-attrib-button:before{
+  content:none;
 }
 
 .clearIcon {
