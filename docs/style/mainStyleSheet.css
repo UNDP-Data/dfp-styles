@@ -843,6 +843,10 @@ a.undp-style:focus-visible {
   height: auto !important;
 }
 
+.undp-button-radio.ant-radio-group label span {
+  font-size: 0.875rem !important;
+}
+
 
 .undp-button-radio.ant-radio-group .ant-radio-button-wrapper {
   border-radius: 0 !important;
