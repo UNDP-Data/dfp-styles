@@ -3281,3 +3281,11 @@ h1.banner-heading.undp-typography{
 .undp-steps .ant-steps-item-icon .ant-steps-icon .anticon.anticon-check.ant-steps-finish-icon {
   font-size: 12px !important;
 }
+
+.undp-data-table.ant-table-wrapper th {
+  background-color: var(--gray-300) !important;
+}
+
+.undp-data-table.ant-table-wrapper .ant-table-cell {
+  font-family: var(--fontFamily) !important;
+}
