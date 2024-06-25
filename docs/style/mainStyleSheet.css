@@ -455,6 +455,15 @@ a.undp-style:focus-visible {
   padding: 0 !important;
 }
 
+.undp-button.button-quaternary {
+  background-color: var(--gray-200);
+  border: 1px solid var(--gray-300);
+}
+
+.undp-button.button-quaternary:hover {
+  background-color: var(--gray-300);
+}
+
 .undp-checkbox .ant-checkbox {
   padding: 2px 0 !important;
 }
