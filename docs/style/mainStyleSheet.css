@@ -458,6 +458,7 @@ a.undp-style:focus-visible {
 .undp-button.button-quaternary {
   background-color: var(--gray-200);
   border: 1px solid var(--gray-300);
+  color: var(--gray-700);
 }
 
 .undp-button.button-quaternary:hover {
