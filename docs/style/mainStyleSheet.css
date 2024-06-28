@@ -2812,7 +2812,7 @@ h1.banner-heading.undp-typography{
 }
 
 .padding-02 {
-  padding-top: var(--spacing-02) !important;
+  padding: var(--spacing-02) !important;
 }
 
 .padding-top-02 {
